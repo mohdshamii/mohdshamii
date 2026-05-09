@@ -1,88 +1,60 @@
 <div align="center">
 
-# Mohd Shami
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,2,12&height=180&section=header&text=Mohd%20Shami&fontSize=72&fontColor=ffffff&fontAlignY=55&desc=Data%20Scientist%20%E2%80%A2%20ML%20Engineer%20%E2%80%A2%20AI%20Builder&descSize=16&descAlignY=78&descColor=c9d1d9&animation=twinkling&fontAlign=50" width="100%"/>
 
-### Data Scientist | Machine Learning & AI | Mathematics | Problem Solving
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://bit.ly/490389f)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codexshami)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:codexshami@gmail.com)
+<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=700&size=22&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&width=560&lines=Transforming+raw+data+into+real+decisions.;Building+intelligent+systems+that+scale.;From+exploratory+analysis+to+production+ML." alt="Typing SVG"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2E97F7&center=true&vCenter=true&width=500&lines=Data+Scientist;Machine+Learning+Engineer;AI+Engineer;Data+Analyst;Data+Engineer;Problem+Solver" alt="Typing SVG" />
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://bit.ly/490389f)
+[![GitHub](https://img.shields.io/badge/GitHub-161b22?style=flat-square&logo=github&logoColor=white)](https://github.com/codexshami)
+[![Portfolio](https://img.shields.io/badge/Portfolio-A78BFA?style=flat-square&logo=firefox&logoColor=white)](https://codexshami.github.io)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:codexshami@gmail.com)
 
 </div>
 
 ---
 
-##  Professional Summary
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=26&duration=1&pause=999999&color=A78BFA&width=220&lines=%E2%9C%A6+About+Me" alt="About"/>
 
-Data Scientist with expertise in Python, Machine Learning, and AI. Passionate about transforming complex data into actionable business insights and scalable solutions.
+B.Tech in **Data Science** — *Teerthanker Mahaveer University*. I build end-to-end machine learning systems, turn messy datasets into clean insights, and deploy models that create real business value. Currently deep-diving into **Transformers**, **LLMs**, and **MLOps**.
 
-- **Education**: B.Tech in Data Science - Teerthanker Mahaveer University
-- **Expertise**: Machine Learning, Predictive Modeling, Data Visualization, NLP
-- **Currently working on**: Advanced NLP, Deep Learning, and MLOps projects
-- **Learning**: Transformers, Deep Learning, MLOps
-- **Goal**: Leverage AI to solve critical business challenges
-- **Fun fact**: Active open-source contributor and technology enthusiast
+> *"Data has a story. My job is to tell it well."*
 
 ---
 
-##  Tech Stack & Tools
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=26&duration=1&pause=999999&color=A78BFA&width=200&lines=%E2%9C%A6+Tech+Stack" alt="Stack"/>
 
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+**Languages**
+`Python` `SQL` `R`
 
-### Data Science & Machine Learning
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)
+**ML & AI**
+`Scikit-Learn` `TensorFlow` `PyTorch` `XGBoost` `HuggingFace` `NLTK` `SpaCy`
 
-### Data Visualization
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+**Data & Viz**
+`Pandas` `NumPy` `Matplotlib` `Seaborn` `Plotly` `Tableau` `Streamlit`
 
-### Development Tools
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+**Databases & Cloud**
+`MySQL` `PostgreSQL` `MongoDB` `AWS` `Azure`
 
-### Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+**Tools**
+`Git` `Docker` `Jupyter` `VS Code` `MLflow`
 
 ---
 
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=26&duration=1&pause=999999&color=A78BFA&width=240&lines=%E2%9C%A6+Currently" alt="Currently"/>
 
-
-
-##  Current Focus Areas
-
-- **Deep Learning & Neural Networks**
-- **MLOps and Model Deployment**
-- **Natural Language Processing (Transformers)**
-- **Cloud Computing (AWS/Azure)**
+-  Working on **NLP pipelines** with Transformers & LLMs
+-  Learning **MLOps**, model serving, and cloud deployment
+-  Open to **collaborations** on AI/ML open-source projects
+-  Ask me about **machine learning**, **data analysis**, or **Python**
 
 ---
 
-##  Let's Connect!
+<div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://bit.ly/490389f)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codexshami)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:codexshami@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white)](https://codexshami.github.io)
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,2,12&height=80&section=footer&text=Let%E2%80%99s+build+something+with+data.&fontSize=20&fontColor=A78BFA&animation=twinkling" width="100%"/>
 
-**Email**: codexshami@gmail.com
-
-
----
+</div>
