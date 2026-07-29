@@ -1,8 +1,14 @@
 <!--
   =====================================================================
   MOHD SHAMI — GITHUB PROFILE README
-  Theme: Cyberpunk / Dark Futuristic / AI-ML Engineer
-  Palette: Void Black (#0A0E17) · Neon Cyan (#00F5FF) · Neon Magenta (#FF00E5) · Electric Violet (#9D4EDD)
+  Theme: DOOM — Dark Futuristic / Armored / AI-ML Engineer
+  Palette:
+    Doom Black       #070508  (background / void)
+    Doom Green       #08BF7C  (primary accent / glow)
+    Dark Doom Green  #00643D  (secondary accent / shadow glow)
+    Armor Silver     #9FA9B2  (body text / metal trim)
+    Dark Metal       #3B483F  (structural / muted panels)
+    Royal Gold       #C78F22  (highlight / rank / prestige accent)
   Note: All widgets below (stats, streak, trophies, snake, activity graph)
   are live services keyed to the "mohdshamii" GitHub username and render
   automatically — no local images needed.
@@ -10,46 +16,46 @@
 -->
 
 <!-- ============================ HERO / HEADER ============================ -->
-<!-- Animated SVG wave banner using capsule-render, cyberpunk gradient -->
+<!-- Animated SVG wave banner using capsule-render, DOOM gradient -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E17,50:1B1035,100:2D0140&height=260&section=header&text=MOHD%20SHAMI&fontSize=68&fontColor=00F5FF&animation=twinkling&fontAlignY=35&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20Data%20Scientist%20%E2%80%A2%20Problem%20Solver&descAlignY=55&descSize=19&descColor=FF00E5" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:070508,50:00643D,100:08BF7C&height=260&section=header&text=MOHD%20SHAMI&fontSize=68&fontColor=08BF7C&animation=twinkling&fontAlignY=35&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20Data%20Scientist%20%E2%80%A2%20Problem%20Solver&descAlignY=55&descSize=19&descColor=C78F22" width="100%"/>
 
 <!-- Animated typing banner: rotates through role/identity lines -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=750&lines=%3E+Building+intelligent+systems+from+raw+data;%3E+B.Tech+Data+Science+%40+TMU+(Class+of+2027);%3E+850%2B+DSA+Problems+Solved+%7C+Python+%2F+ML;%3E+Deploying+end-to-end+ML+pipelines;%3E+Currently+exploring+Transformers+%26+LLMs" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=08BF7C&center=true&vCenter=true&width=750&lines=%3E+Building+intelligent+systems+from+raw+data;%3E+B.Tech+Data+Science+%40+TMU+(2027);%3E+850%2B+DSA+Problems+Solved+%7C+Python+%2F+ML;%3E+Deploying+end-to-end+ML+pipelines;%3E+Currently+exploring+Transformers+%26+LLMs" alt="Typing SVG" />
 
 <br/>
 
 <!-- Visitor counter + profile view badge -->
-<img src="https://komarev.com/ghpvc/?username=mohdshamii&label=PROFILE+VIEWS&color=9D4EDD&style=for-the-badge" alt="profile views"/>
-<img src="https://img.shields.io/github/followers/mohdshamii?label=FOLLOWERS&style=for-the-badge&color=00F5FF&labelColor=0A0E17" alt="followers"/>
+<img src="https://komarev.com/ghpvc/?username=mohdshamii&label=PROFILE+VIEWS&color=C78F22&style=for-the-badge" alt="profile views"/>
+<img src="https://img.shields.io/github/followers/mohdshamii?label=FOLLOWERS&style=for-the-badge&color=08BF7C&labelColor=070508" alt="followers"/>
 
 </div>
 
 <!-- Thin neon divider between hero and nav -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:FF00E5&height=3&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:08BF7C,100:C78F22&height=3&width=100%"/>
 
 <!-- ============================ QUICK NAV BADGES ============================ -->
 <!-- Jump-links styled as glowing badges for fast section navigation -->
 <div align="center">
 
-[![About](https://img.shields.io/badge/ABOUT-0A0E17?style=for-the-badge&logoColor=00F5FF)](#about-me)
-[![Skills](https://img.shields.io/badge/SKILLS-0A0E17?style=for-the-badge&logoColor=FF00E5)](#technical-arsenal)
-[![Stats](https://img.shields.io/badge/STATS-0A0E17?style=for-the-badge&logoColor=9D4EDD)](#github-analytics)
-[![Projects](https://img.shields.io/badge/PROJECTS-0A0E17?style=for-the-badge&logoColor=00F5FF)](#featured-projects)
-[![Contact](https://img.shields.io/badge/CONTACT-0A0E17?style=for-the-badge&logoColor=FF00E5)](#lets-connect)
+[![About](https://img.shields.io/badge/ABOUT-070508?style=for-the-badge&logoColor=08BF7C)](#about-me)
+[![Skills](https://img.shields.io/badge/SKILLS-070508?style=for-the-badge&logoColor=C78F22)](#technical-arsenal)
+[![Stats](https://img.shields.io/badge/STATS-070508?style=for-the-badge&logoColor=9FA9B2)](#github-analytics)
+[![Projects](https://img.shields.io/badge/PROJECTS-070508?style=for-the-badge&logoColor=08BF7C)](#featured-projects)
+[![Contact](https://img.shields.io/badge/CONTACT-070508?style=for-the-badge&logoColor=C78F22)](#lets-connect)
 
 </div>
 
 <br/>
 
 <!-- ============================ ABOUT ME ============================ -->
-<!-- Glassmorphism-style card simulated with a bordered table + soft palette -->
+<!-- Glassmorphism-style card simulated with a bordered table + DOOM palette -->
 <h2 id="about-me" align="center">◈ ABOUT ME ◈</h2>
 
 <table width="100%">
 <tr>
-<td width="100%" style="background:#0A0E17;">
+<td width="100%" style="background:#070508;">
 
 ```yaml
 identity:
@@ -76,7 +82,7 @@ deployment pipeline and classical **NLP/text-classification** systems.
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,100:9D4EDD&height=2&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:C78F22,100:00643D&height=2&width=100%"/>
 
 <!-- ============================ TECHNICAL ARSENAL ============================ -->
 <h2 id="technical-arsenal" align="center">◈ TECHNICAL ARSENAL ◈</h2>
@@ -88,41 +94,41 @@ deployment pipeline and classical **NLP/text-classification** systems.
 
 <br/>
 
-<!-- Category badges — grouped, colour-coded to the cyberpunk palette -->
+<!-- Category badges — grouped, colour-coded to the DOOM palette -->
 <div align="center">
 
 <b>Languages</b><br/>
-<img src="https://img.shields.io/badge/Python-00F5FF?style=for-the-badge&logo=python&logoColor=black"/>
-<img src="https://img.shields.io/badge/SQL-FF00E5?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/R-9D4EDD?style=for-the-badge&logo=r&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-08BF7C?style=for-the-badge&logo=python&logoColor=070508"/>
+<img src="https://img.shields.io/badge/SQL-C78F22?style=for-the-badge&logo=postgresql&logoColor=070508"/>
+<img src="https://img.shields.io/badge/R-9FA9B2?style=for-the-badge&logo=r&logoColor=070508"/>
 
 <br/><br/>
 
 <b>Machine Learning & AI</b><br/>
-<img src="https://img.shields.io/badge/Scikit--Learn-00F5FF?style=for-the-badge&logo=scikitlearn&logoColor=black"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF00E5?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-9D4EDD?style=for-the-badge&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/XGBoost-00F5FF?style=for-the-badge&logo=xgboost&logoColor=black"/>
-<img src="https://img.shields.io/badge/HuggingFace-FF00E5?style=for-the-badge&logo=huggingface&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-08BF7C?style=for-the-badge&logo=scikitlearn&logoColor=070508"/>
+<img src="https://img.shields.io/badge/TensorFlow-C78F22?style=for-the-badge&logo=tensorflow&logoColor=070508"/>
+<img src="https://img.shields.io/badge/PyTorch-9FA9B2?style=for-the-badge&logo=pytorch&logoColor=070508"/>
+<img src="https://img.shields.io/badge/XGBoost-00643D?style=for-the-badge&logo=xgboost&logoColor=white"/>
+<img src="https://img.shields.io/badge/HuggingFace-08BF7C?style=for-the-badge&logo=huggingface&logoColor=070508"/>
 
 <br/><br/>
 
 <b>Data & Visualization</b><br/>
-<img src="https://img.shields.io/badge/Pandas-9D4EDD?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-00F5FF?style=for-the-badge&logo=numpy&logoColor=black"/>
-<img src="https://img.shields.io/badge/Power_BI-FF00E5?style=for-the-badge&logo=powerbi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tableau-9D4EDD?style=for-the-badge&logo=tableau&logoColor=white"/>
-<img src="https://img.shields.io/badge/Plotly-00F5FF?style=for-the-badge&logo=plotly&logoColor=black"/>
+<img src="https://img.shields.io/badge/Pandas-9FA9B2?style=for-the-badge&logo=pandas&logoColor=070508"/>
+<img src="https://img.shields.io/badge/NumPy-08BF7C?style=for-the-badge&logo=numpy&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Power_BI-C78F22?style=for-the-badge&logo=powerbi&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Tableau-00643D?style=for-the-badge&logo=tableau&logoColor=white"/>
+<img src="https://img.shields.io/badge/Plotly-08BF7C?style=for-the-badge&logo=plotly&logoColor=070508"/>
 
 <br/><br/>
 
 <b>Databases, Cloud & Tools</b><br/>
-<img src="https://img.shields.io/badge/MySQL-FF00E5?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-9D4EDD?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS-00F5FF?style=for-the-badge&logo=amazonaws&logoColor=black"/>
-<img src="https://img.shields.io/badge/Docker-FF00E5?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-9D4EDD?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-00F5FF?style=for-the-badge&logo=flask&logoColor=black"/>
+<img src="https://img.shields.io/badge/MySQL-C78F22?style=for-the-badge&logo=mysql&logoColor=070508"/>
+<img src="https://img.shields.io/badge/MongoDB-00643D?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-08BF7C?style=for-the-badge&logo=amazonaws&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Docker-9FA9B2?style=for-the-badge&logo=docker&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Git-C78F22?style=for-the-badge&logo=git&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Flask-08BF7C?style=for-the-badge&logo=flask&logoColor=070508"/>
 
 </div>
 
@@ -134,49 +140,49 @@ deployment pipeline and classical **NLP/text-classification** systems.
 <div align="center">
 
 **Python (Pandas · NumPy · SciPy)**
-![](https://progress-bar.dev/98/?scale=100&title=&width=500&color=00f5ff&suffix=%25)
+![](https://progress-bar.dev/98/?scale=100&title=&width=500&color=08bf7c&suffix=%25)
 
 **Machine Learning (XGBoost · Scikit-learn)**
-![](https://progress-bar.dev/95/?scale=100&title=&width=500&color=ff00e5&suffix=%25)
+![](https://progress-bar.dev/95/?scale=100&title=&width=500&color=c78f22&suffix=%25)
 
 **SQL & Database Management**
-![](https://progress-bar.dev/92/?scale=100&title=&width=500&color=9d4edd&suffix=%25)
+![](https://progress-bar.dev/92/?scale=100&title=&width=500&color=9fa9b2&suffix=%25)
 
 **Power BI & Tableau**
-![](https://progress-bar.dev/94/?scale=100&title=&width=500&color=00f5ff&suffix=%25)
+![](https://progress-bar.dev/94/?scale=100&title=&width=500&color=00643d&suffix=%25)
 
 **Deep Learning & CNNs**
-![](https://progress-bar.dev/85/?scale=100&title=&width=500&color=ff00e5&suffix=%25)
+![](https://progress-bar.dev/85/?scale=100&title=&width=500&color=c78f22&suffix=%25)
 
 **EDA & Data Wrangling**
-![](https://progress-bar.dev/96/?scale=100&title=&width=500&color=9d4edd&suffix=%25)
+![](https://progress-bar.dev/96/?scale=100&title=&width=500&color=08bf7c&suffix=%25)
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:9D4EDD,100:00F5FF&height=2&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00643D,100:08BF7C&height=2&width=100%"/>
 
 <!-- ============================ GITHUB ANALYTICS ============================ -->
 <h2 id="github-analytics" align="center">◈ GITHUB ANALYTICS ◈</h2>
 
 <!-- Core stats card + top languages card, side by side -->
 <div align="center">
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=mohdshamii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A0E17&title_color=00F5FF&icon_color=FF00E5&text_color=c9d1d9&count_private=true"/>
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohdshamii&layout=compact&theme=tokyonight&hide_border=true&bg_color=0A0E17&title_color=00F5FF&text_color=c9d1d9"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=mohdshamii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&icon_color=C78F22&text_color=9FA9B2&count_private=true"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohdshamii&layout=compact&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&text_color=9FA9B2"/>
 </div>
 
 <!-- Contribution streak counter -->
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mohdshamii&theme=tokyonight&hide_border=true&background=0A0E17&ring=FF00E5&fire=00F5FF&currStreakLabel=00F5FF"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mohdshamii&theme=tokyonight&hide_border=true&background=070508&ring=C78F22&fire=08BF7C&currStreakLabel=08BF7C"/>
 </div>
 
 <!-- Trophy case: achievements ranked by GitHub activity -->
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=mohdshamii&theme=algolia&no-frame=true&row=1&column=7&margin-w=8"/>
+<img src="https://github-profile-trophy.vercel.app/?username=mohdshamii&theme=matrix&no-frame=true&row=1&column=7&margin-w=8"/>
 </div>
 
 <!-- Full-width contribution activity graph -->
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohdshamii&theme=react-dark&hide_border=true&bg_color=0A0E17&color=00F5FF&line=FF00E5&point=9D4EDD"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohdshamii&theme=react-dark&hide_border=true&bg_color=070508&color=08BF7C&line=C78F22&point=9FA9B2"/>
 </div>
 
 <!--
@@ -189,7 +195,7 @@ deployment pipeline and classical **NLP/text-classification** systems.
 <img src="https://raw.githubusercontent.com/mohdshamii/mohdshamii/output/github-contribution-grid-snake-dark.svg" alt="contribution snake animation"/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:9D4EDD&height=2&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:08BF7C,100:9FA9B2&height=2&width=100%"/>
 
 <!-- ============================ FEATURED PROJECTS ============================ -->
 <h2 id="featured-projects" align="center">◈ FEATURED PROJECTS ◈</h2>
@@ -198,17 +204,17 @@ deployment pipeline and classical **NLP/text-classification** systems.
 <div align="center">
 
 <a href="https://github.com/mohdshamii/Revive">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=Revive&theme=tokyonight&hide_border=true&bg_color=0A0E17&title_color=00F5FF&icon_color=FF00E5"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=Revive&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&icon_color=C78F22"/>
 </a>
 <a href="https://github.com/mohdshamii/HamOrSpam-Classifier">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=HamOrSpam-Classifier&theme=tokyonight&hide_border=true&bg_color=0A0E17&title_color=00F5FF&icon_color=FF00E5"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=HamOrSpam-Classifier&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&icon_color=C78F22"/>
 </a>
 
 <a href="https://github.com/mohdshamii/ChurnShield_AI">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=ChurnShield_AI&theme=tokyonight&hide_border=true&bg_color=0A0E17&title_color=00F5FF&icon_color=FF00E5"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=ChurnShield_AI&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&icon_color=C78F22"/>
 </a>
 <a href="https://github.com/mohdshamii/CodeOrbit">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=CodeOrbit&theme=tokyonight&hide_border=true&bg_color=0A0E17&title_color=00F5FF&icon_color=FF00E5"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=CodeOrbit&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&icon_color=C78F22"/>
 </a>
 
 </div>
@@ -249,7 +255,7 @@ deployment pipeline and classical **NLP/text-classification** systems.
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,100:00F5FF&height=2&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:C78F22,100:08BF7C&height=2&width=100%"/>
 
 <!-- ============================ EXPERIENCE ============================ -->
 <h2 align="center">◈ EXPERIENCE ◈</h2>
@@ -277,7 +283,7 @@ deployment pipeline and classical **NLP/text-classification** systems.
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:9D4EDD,100:FF00E5&height=2&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:9FA9B2,100:C78F22&height=2&width=100%"/>
 
 <!-- ============================ EDUCATION ============================ -->
 <h2 align="center">◈ EDUCATION ◈</h2>
@@ -298,7 +304,7 @@ Expected 2027 · CGPA 8.5 / 10 · Rank 1 in Academic Cohort
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:FF00E5&height=2&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:08BF7C,100:C78F22&height=2&width=100%"/>
 
 <!-- ============================ CERTIFICATIONS ============================ -->
 <h2 align="center">◈ CERTIFICATIONS ◈</h2>
@@ -316,7 +322,7 @@ Expected 2027 · CGPA 8.5 / 10 · Rank 1 in Academic Cohort
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,100:9D4EDD&height=2&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:C78F22,100:00643D&height=2&width=100%"/>
 
 <!-- ============================ COMPETITIVE PROGRAMMING ============================ -->
 <h2 align="center">◈ COMPETITIVE PROGRAMMING ◈</h2>
@@ -340,22 +346,22 @@ Expected 2027 · CGPA 8.5 / 10 · Rank 1 in Academic Cohort
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:9D4EDD,100:00F5FF&height=2&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00643D,100:08BF7C&height=2&width=100%"/>
 
 <!-- ============================ CODING PROFILES ============================ -->
 <h2 align="center">◈ CODING PROFILES ◈</h2>
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=00F5FF)](https://github.com/mohdshamii)
-[![LeetCode](https://img.shields.io/badge/LeetCode-161B22?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/mohdshamii)
-[![Kaggle](https://img.shields.io/badge/Kaggle-161B22?style=for-the-badge&logo=kaggle&logoColor=20BEFF)](https://kaggle.com/mohdshami)
-[![HackerRank](https://img.shields.io/badge/HackerRank-161B22?style=for-the-badge&logo=hackerrank&logoColor=2EC866)](https://www.hackerrank.com/mohdshamii)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-161B22?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/mohdshami)
+[![GitHub](https://img.shields.io/badge/GitHub-070508?style=for-the-badge&logo=github&logoColor=08BF7C)](https://github.com/mohdshamii)
+[![LeetCode](https://img.shields.io/badge/LeetCode-070508?style=for-the-badge&logo=leetcode&logoColor=C78F22)](https://leetcode.com/u/mohdshamii)
+[![Kaggle](https://img.shields.io/badge/Kaggle-070508?style=for-the-badge&logo=kaggle&logoColor=9FA9B2)](https://kaggle.com/mohdshami)
+[![HackerRank](https://img.shields.io/badge/HackerRank-070508?style=for-the-badge&logo=hackerrank&logoColor=08BF7C)](https://www.hackerrank.com/mohdshamii)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-070508?style=for-the-badge&logo=huggingface&logoColor=C78F22)](https://huggingface.co/mohdshami)
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:FF00E5&height=2&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:08BF7C,100:C78F22&height=2&width=100%"/>
 
 <!-- ============================ CONTACT ============================ -->
 <h2 id="lets-connect" align="center">◈ LET'S CONNECT ◈</h2>
@@ -365,15 +371,15 @@ Expected 2027 · CGPA 8.5 / 10 · Rank 1 in Academic Cohort
 Open to collaborations in **Machine Learning, NLP, and Data Analytics** —
 reach out for internships, open-source projects, or a good technical conversation.
 
-<a href="https://linkedin.com/in/mohdshamii" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:codexshami@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://mohdshamii.github.io" target="_blank"><img src="https://img.shields.io/badge/Portfolio-9D4EDD?style=for-the-badge&logo=firefox&logoColor=white"/></a>
-<a href="https://x.com/Codexshami" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
-<a href="https://linktr.ee/mdshami" target="_blank"><img src="https://img.shields.io/badge/Linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white"/></a>
+<a href="https://linkedin.com/in/mohdshamii" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-00643D?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:codexshami@gmail.com"><img src="https://img.shields.io/badge/Email-C78F22?style=for-the-badge&logo=gmail&logoColor=070508"/></a>
+<a href="https://mohdshamii.github.io" target="_blank"><img src="https://img.shields.io/badge/Portfolio-08BF7C?style=for-the-badge&logo=firefox&logoColor=070508"/></a>
+<a href="https://x.com/Codexshami" target="_blank"><img src="https://img.shields.io/badge/X-3B483F?style=for-the-badge&logo=x&logoColor=white"/></a>
+<a href="https://linktr.ee/mdshami" target="_blank"><img src="https://img.shields.io/badge/Linktree-9FA9B2?style=for-the-badge&logo=linktree&logoColor=070508"/></a>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,100:9D4EDD&height=2&width=100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:C78F22,100:00643D&height=2&width=100%"/>
 
 <!-- ============================ SUPPORT ============================ -->
 <h2 align="center">◈ SUPPORT ◈</h2>
@@ -383,15 +389,15 @@ reach out for internships, open-source projects, or a good technical conversatio
 If any of my work or repositories helped you, consider dropping a star or a coffee —
 it goes a long way for an independent learner.
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/mohdshami)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/mohdshamii)
-[![Star](https://img.shields.io/badge/Star_my_repos-00F5FF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/mohdshamii?tab=repositories)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-C78F22?style=for-the-badge&logo=buymeacoffee&logoColor=070508)](https://buymeacoffee.com/mohdshami)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-08BF7C?style=for-the-badge&logo=githubsponsors&logoColor=070508)](https://github.com/sponsors/mohdshamii)
+[![Star](https://img.shields.io/badge/Star_my_repos-9FA9B2?style=for-the-badge&logo=github&logoColor=070508)](https://github.com/mohdshamii?tab=repositories)
 
 </div>
 
 <!-- ============================ FOOTER ============================ -->
 <!-- Closing SVG wave, mirrored gradient of the header for visual symmetry -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D0140,50:1B1035,100:0A0E17&height=180&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:08BF7C,50:00643D,100:070508&height=180&section=footer"/>
 
 <div align="center">
 
