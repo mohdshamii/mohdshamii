@@ -185,28 +185,7 @@ l
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:08BF7C,100:9FA9B2&height=2&width=100%"/>
 
 <!-- ============================ FEATURED PROJECTS ============================ -->
-<h2 id="featured-projects" align="center">◈ FEATURED PROJECTS ◈</h2>
 
-<!-- Pinned-repo style cards pulled from real, public repositories -->
-<div align="center">
-
-<a href="https://github.com/mohdshamii/Revive">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=Revive&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&icon_color=C78F22"/>
-</a>
-<a href="https://github.com/mohdshamii/HamOrSpam-Classifier">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=HamOrSpam-Classifier&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&icon_color=C78F22"/>
-</a>
-
-<a href="https://github.com/mohdshamii/ChurnShield_AI">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=ChurnShield_AI&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&icon_color=C78F22"/>
-</a>
-<a href="https://github.com/mohdshamii/CodeOrbit">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mohdshamii&repo=CodeOrbit&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&icon_color=C78F22"/>
-</a>
-
-</div>
-
-<br/>
 
 <!-- Detailed project descriptions in a structured table -->
 <table width="100%">
