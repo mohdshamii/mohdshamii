@@ -164,21 +164,11 @@ deployment pipeline and classical **NLP/text-classification** systems.
 <!-- ============================ GITHUB ANALYTICS ============================ -->
 <h2 id="github-analytics" align="center">◈ GITHUB ANALYTICS ◈</h2>
 
-<!-- Core stats card + top languages card, side by side -->
-<div align="center">
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=mohdshamii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&icon_color=C78F22&text_color=9FA9B2&count_private=true"/>
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohdshamii&layout=compact&theme=tokyonight&hide_border=true&bg_color=070508&title_color=08BF7C&text_color=9FA9B2"/>
-</div>
-
 <!-- Contribution streak counter -->
 <div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohdshamii&theme=tokyonight&hide_border=true&background=070508&ring=C78F22&fire=08BF7C&currStreakLabel=08BF7C"/>
 </div>
 
-<!-- Trophy case: achievements ranked by GitHub activity -->
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=mohdshamii&theme=matrix&no-frame=true&row=1&column=7&margin-w=8"/>
-</div>
 
 <!-- Full-width contribution activity graph -->
 <div align="center">
@@ -191,10 +181,7 @@ deployment pipeline and classical **NLP/text-classification** systems.
   mohdshamii/mohdshamii repo that commits the generated SVG to an "output"
   branch. Once that workflow exists, this image renders automatically.
 -->
-<div align="center">
-<img src="https://raw.githubusercontent.com/mohdshamii/mohdshamii/output/github-contribution-grid-snake-dark.svg" alt="contribution snake animation"/>
-</div>
-
+l
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:08BF7C,100:9FA9B2&height=2&width=100%"/>
 
 <!-- ============================ FEATURED PROJECTS ============================ -->
