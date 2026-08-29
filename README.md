@@ -340,7 +340,7 @@ reach out for internships, open-source projects, or a good technical conversatio
 <a href="https://linkedin.com/in/mohdshamii" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-00643D?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:codexshami@gmail.com"><img src="https://img.shields.io/badge/Email-C78F22?style=for-the-badge&logo=gmail&logoColor=070508"/></a>
 <a href="https://mohdshamii.github.io" target="_blank"><img src="https://img.shields.io/badge/Portfolio-08BF7C?style=for-the-badge&logo=firefox&logoColor=070508"/></a>
-<a href="https://x.com/Codexshami" target="_blank"><img src="https://img.shields.io/badge/X-3B483F?style=for-the-badge&logo=x&logoColor=white"/></a>
+<a href="https://x.com/mohdshamiii" target="_blank"><img src="https://img.shields.io/badge/X-3B483F?style=for-the-badge&logo=x&logoColor=white"/></a>
 <a href="https://linktr.ee/mdshami" target="_blank"><img src="https://img.shields.io/badge/Linktree-9FA9B2?style=for-the-badge&logo=linktree&logoColor=070508"/></a>
 
 </div>
