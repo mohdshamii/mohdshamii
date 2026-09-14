@@ -310,7 +310,7 @@ Expected 2027 · CGPA 8.5 / 10 · Rank 1 in Academic Cohort
 | Certification | Issuer | Year |
 |---|---|---|
 | SQL (Advanced) | HackerRank | 2026 |
-| Getting Started with Data | IBM | — |
+| Getting Started with Data | IBM | 2026 |
 | AI – Machine Learning Engineer | Reliance Foundation | 2025 |
 | Deep Learning Certificate | Simplilearn | 2025 |
 | Problem Solving (Intermediate) | HackerRank | 2025 |
