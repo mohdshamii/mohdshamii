@@ -22,7 +22,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:070508,50:00643D,100:08BF7C&height=260&section=header&text=MOHD%20SHAMI&fontSize=68&fontColor=08BF7C&animation=twinkling&fontAlignY=35&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20Data%20Engineer%20%E2%80%A2%20Problem%20Solver&descAlignY=55&descSize=19&descColor=C78F22" width="100%"/>
 
 <!-- Animated typing banner: rotates through role/identity lines -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=08BF7C&center=true&vCenter=true&width=750&lines=%3E+Building+intelligent+systems+from+raw+data;%3E+B.Tech+Data+Science+%40+TMU+(2027);%3E+850%2B+DSA+Problems+Solved+%7C+Python+%2F+ML;%3E+Deploying+end-to-end+ML+pipelines;%3E+Currently+exploring+Transformers+%26+LLMs" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=08BF7C&center=true&vCenter=true&width=750&lines=%3E+Building+intelligent+systems+from+raw+data;%3E+B.Tech+Data+Science+%40+TMU+(2027);%3E+850%2B+DSA+Problems+Solved+%7C+Python+%2F+ML;%3E+Deploying+end-to-end+ML+%2F+LLM+pipelines;%3E+Fine-tuning+%26+deploying+Transformers+at+scale" alt="Typing SVG" />
 
 <br/>
 
@@ -64,9 +64,9 @@ identity:
   location: "Moradabad, Uttar Pradesh, India"
   education: "B.Tech in Data Science — Teerthanker Mahaveer University (Expected 2027)"
   cgpa: "8.5 / 10 — Rank 1 in Academic Cohort"
-  focus: ["Machine Learning", "Deep Learning", "NLP", "MLOps", "Data Analytics"]
-  currently_exploring: ["Transformers", "Large Language Models", "Cloud ML Deployment"]
-  philosophy: "Data has a story — my job is to tell it well."
+  focus: ["Machine Learning", "Deep Learning", "NLP", "LLMs / GenAI", "MLOps", "Data Engineering"]
+  currently_exploring: ["Transformer architectures", "RAG systems", "LLM fine-tuning", "Cloud-native ML deployment"]
+  philosophy: "Data has a story — my job is to tell it well, and ship the model that acts on it."
 ```
 
 </td>
@@ -75,10 +75,11 @@ identity:
 
 <div align="center">
 
-I design and deploy **end-to-end machine learning systems** — from raw, messy datasets
-to production-ready models. My work spans predictive modeling, statistical analysis,
-and interactive BI dashboards, with hands-on experience across the **XGBoost → Flask**
-deployment pipeline and classical **NLP/text-classification** systems.
+I design and deploy **end-to-end machine learning and AI systems** — from raw, messy
+datasets to production-grade models and LLM-powered applications. My work spans
+predictive modeling, statistical analysis, and interactive BI dashboards, with
+hands-on experience across the **classical ML → Deep Learning → LLM/GenAI**
+spectrum, and shipping models through containerized, cloud-deployed pipelines.
 
 </div>
 
@@ -89,7 +90,7 @@ deployment pipeline and classical **NLP/text-classification** systems.
 
 <!-- Tech stack icon grid via skillicons.dev (renders as SVG) -->
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,r,mysql,postgres,mongodb,git,github,docker,vscode,linux,flask,tensorflow&theme=dark&perline=6"/>
+<img src="https://skillicons.dev/icons?i=python,r,mysql,postgres,mongodb,git,github,docker,kubernetes,vscode,linux,flask,fastapi,tensorflow,pytorch,aws,gcp,redis&theme=dark&perline=6"/>
 </div>
 
 <br/>
@@ -101,15 +102,37 @@ deployment pipeline and classical **NLP/text-classification** systems.
 <img src="https://img.shields.io/badge/Python-08BF7C?style=for-the-badge&logo=python&logoColor=070508"/>
 <img src="https://img.shields.io/badge/SQL-C78F22?style=for-the-badge&logo=postgresql&logoColor=070508"/>
 <img src="https://img.shields.io/badge/R-9FA9B2?style=for-the-badge&logo=r&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Bash-00643D?style=for-the-badge&logo=gnubash&logoColor=white"/>
 
 <br/><br/>
 
-<b>Machine Learning & AI</b><br/>
+<b>Machine Learning & Deep Learning</b><br/>
 <img src="https://img.shields.io/badge/Scikit--Learn-08BF7C?style=for-the-badge&logo=scikitlearn&logoColor=070508"/>
 <img src="https://img.shields.io/badge/TensorFlow-C78F22?style=for-the-badge&logo=tensorflow&logoColor=070508"/>
 <img src="https://img.shields.io/badge/PyTorch-9FA9B2?style=for-the-badge&logo=pytorch&logoColor=070508"/>
 <img src="https://img.shields.io/badge/XGBoost-00643D?style=for-the-badge&logo=xgboost&logoColor=white"/>
+<img src="https://img.shields.io/badge/Keras-08BF7C?style=for-the-badge&logo=keras&logoColor=070508"/>
+<img src="https://img.shields.io/badge/OpenCV-C78F22?style=for-the-badge&logo=opencv&logoColor=070508"/>
+
+<br/><br/>
+
+<b>LLMs, NLP & GenAI</b><br/>
 <img src="https://img.shields.io/badge/HuggingFace-08BF7C?style=for-the-badge&logo=huggingface&logoColor=070508"/>
+<img src="https://img.shields.io/badge/LangChain-C78F22?style=for-the-badge&logo=langchain&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Transformers-9FA9B2?style=for-the-badge&logo=huggingface&logoColor=070508"/>
+<img src="https://img.shields.io/badge/OpenAI_API-00643D?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/RAG_Pipelines-08BF7C?style=for-the-badge&logo=databricks&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Vector_DBs-C78F22?style=for-the-badge&logo=pinecone&logoColor=070508"/>
+
+<br/><br/>
+
+<b>MLOps & Deployment</b><br/>
+<img src="https://img.shields.io/badge/Docker-9FA9B2?style=for-the-badge&logo=docker&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Kubernetes-08BF7C?style=for-the-badge&logo=kubernetes&logoColor=070508"/>
+<img src="https://img.shields.io/badge/MLflow-C78F22?style=for-the-badge&logo=mlflow&logoColor=070508"/>
+<img src="https://img.shields.io/badge/FastAPI-00643D?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flask-08BF7C?style=for-the-badge&logo=flask&logoColor=070508"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-9FA9B2?style=for-the-badge&logo=githubactions&logoColor=070508"/>
 
 <br/><br/>
 
@@ -119,16 +142,17 @@ deployment pipeline and classical **NLP/text-classification** systems.
 <img src="https://img.shields.io/badge/Power_BI-C78F22?style=for-the-badge&logo=powerbi&logoColor=070508"/>
 <img src="https://img.shields.io/badge/Tableau-00643D?style=for-the-badge&logo=tableau&logoColor=white"/>
 <img src="https://img.shields.io/badge/Plotly-08BF7C?style=for-the-badge&logo=plotly&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Apache_Spark-C78F22?style=for-the-badge&logo=apachespark&logoColor=070508"/>
 
 <br/><br/>
 
-<b>Databases, Cloud & Tools</b><br/>
+<b>Databases & Cloud</b><br/>
 <img src="https://img.shields.io/badge/MySQL-C78F22?style=for-the-badge&logo=mysql&logoColor=070508"/>
+<img src="https://img.shields.io/badge/PostgreSQL-9FA9B2?style=for-the-badge&logo=postgresql&logoColor=070508"/>
 <img src="https://img.shields.io/badge/MongoDB-00643D?style=for-the-badge&logo=mongodb&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS-08BF7C?style=for-the-badge&logo=amazonaws&logoColor=070508"/>
-<img src="https://img.shields.io/badge/Docker-9FA9B2?style=for-the-badge&logo=docker&logoColor=070508"/>
-<img src="https://img.shields.io/badge/Git-C78F22?style=for-the-badge&logo=git&logoColor=070508"/>
-<img src="https://img.shields.io/badge/Flask-08BF7C?style=for-the-badge&logo=flask&logoColor=070508"/>
+<img src="https://img.shields.io/badge/GCP_Vertex_AI-C78F22?style=for-the-badge&logo=googlecloud&logoColor=070508"/>
+<img src="https://img.shields.io/badge/Redis-9FA9B2?style=for-the-badge&logo=redis&logoColor=070508"/>
 
 </div>
 
@@ -145,14 +169,20 @@ deployment pipeline and classical **NLP/text-classification** systems.
 **Machine Learning (XGBoost · Scikit-learn)**
 ![](https://progress-bar.dev/95/?scale=100&title=&width=500&color=c78f22&suffix=%25)
 
+**Deep Learning (PyTorch · TensorFlow · CNNs)**
+![](https://progress-bar.dev/90/?scale=100&title=&width=500&color=9fa9b2&suffix=%25)
+
+**LLMs, NLP & RAG (HuggingFace · LangChain)**
+![](https://progress-bar.dev/88/?scale=100&title=&width=500&color=00643d&suffix=%25)
+
+**MLOps & Deployment (Docker · MLflow · FastAPI)**
+![](https://progress-bar.dev/86/?scale=100&title=&width=500&color=c78f22&suffix=%25)
+
 **SQL & Database Management**
-![](https://progress-bar.dev/92/?scale=100&title=&width=500&color=9fa9b2&suffix=%25)
+![](https://progress-bar.dev/92/?scale=100&title=&width=500&color=08bf7c&suffix=%25)
 
 **Power BI & Tableau**
 ![](https://progress-bar.dev/94/?scale=100&title=&width=500&color=00643d&suffix=%25)
-
-**Deep Learning & CNNs**
-![](https://progress-bar.dev/85/?scale=100&title=&width=500&color=c78f22&suffix=%25)
 
 **EDA & Data Wrangling**
 ![](https://progress-bar.dev/96/?scale=100&title=&width=500&color=08bf7c&suffix=%25)
@@ -181,11 +211,11 @@ deployment pipeline and classical **NLP/text-classification** systems.
   mohdshamii/mohdshamii repo that commits the generated SVG to an "output"
   branch. Once that workflow exists, this image renders automatically.
 -->
-l
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:08BF7C,100:9FA9B2&height=2&width=100%"/>
 
 <!-- ============================ FEATURED PROJECTS ============================ -->
-
+<h2 id="featured-projects" align="center">◈ FEATURED PROJECTS ◈</h2>
 
 <!-- Detailed project descriptions in a structured table -->
 <table width="100%">
