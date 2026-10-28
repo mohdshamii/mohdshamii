@@ -53,7 +53,7 @@ I am a machine learning engineer focused on turning models into dependable produ
 
 Open to collaboration, opportunities, and conversations about applied ML.
 
- [codexshami@gmail.com](mailto:codexshami@gmail.com) ·  [LinkedIn](https://linkedin.com/in/mohdshamii)
+ [codexshami@gmail.com](mailto:codexshami@gmail.com) ·  [LinkedIn](https://linkedin.com/in/mohdshamii) ·  [Portfolio](mohdshamii.github.io)
 
 ---
 
