@@ -1,4 +1,4 @@
-<a href="https://mohdshamii.github.io"><img src="assets/banner.gif" alt="Mohd Shami — Machine Learning Engineer" width="100%"></a>
+<a href="https://mohdshamii.github.io"><img src="banner.gif" alt="Mohd Shami — Machine Learning Engineer" width="100%"></a>
 
 Machine learning engineer building reliable, end-to-end ML systems, from data to deployment.
 
