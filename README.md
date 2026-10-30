@@ -53,7 +53,7 @@ I turn models into dependable products. My work covers the full lifecycle: data 
 
 ## GitHub Stats
 
-<!-- SPIDER-MAN GITHUB STATS --><h2 align="center">🕷️ SPIDER-VERSE | GITHUB STATS</h2><p align="center">
+<!-- SPIDER-MAN GITHUB STATS --><h2 align="center">GITHUB STATS</h2><p align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=mohdshamii&show_icons=true&hide_border=true&theme=dark&bg_color=0B0F24&title_color=E22429&icon_color=2B6CFF&text_color=FFFFFF&ring_color=E22429&include_all_commits=true" width="49%" alt="Mohd Shami GitHub Stats"/>
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=mohdshamii&layout=compact&hide_border=true&langs_count=6&theme=dark&bg_color=0B0F24&title_color=E22429&text_color=FFFFFF" width="49%" alt="Top Languages"/>
 </p><h3 align="center">🕸️ WITH GREAT CODE COMES GREAT RESPONSIBILITY</h3><p align="center">
