@@ -53,10 +53,13 @@ I turn models into dependable products. My work covers the full lifecycle: data 
 
 ## GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mohdshamii&show_icons=true&hide_border=true&count_private=true&bg_color=0B0F24&title_color=E22429&icon_color=2B6CFF&text_color=FFFFFF" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohdshamii&layout=compact&hide_border=true&langs_count=6&bg_color=0B0F24&title_color=E22429&text_color=FFFFFF" width="48%" alt="Top Languages" />
-</div>
+<!-- SPIDER-MAN GITHUB STATS --><h2 align="center">🕷️ SPIDER-VERSE | GITHUB STATS</h2><p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=mohdshamii&show_icons=true&hide_border=true&theme=dark&bg_color=0B0F24&title_color=E22429&icon_color=2B6CFF&text_color=FFFFFF&ring_color=E22429&include_all_commits=true" width="49%" alt="Mohd Shami GitHub Stats"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=mohdshamii&layout=compact&hide_border=true&langs_count=6&theme=dark&bg_color=0B0F24&title_color=E22429&text_color=FFFFFF" width="49%" alt="Top Languages"/>
+</p><h3 align="center">🕸️ WITH GREAT CODE COMES GREAT RESPONSIBILITY</h3><p align="center">
+  <img src="https://streak-stats.demolab.com?user=mohdshamii&theme=dark&hide_border=true&background=0B0F24&ring=E22429&fire=E22429&currStreakLabel=2B6CFF&sideLabels=FFFFFF&dates=AAAAAA" width="70%" alt="GitHub Streak"/>
+</p>
+
 
 <img src="divider.gif" alt="" width="100%">
 
