@@ -1,4 +1,4 @@
-<a href="https://mohdshamii.github.io"><img src="assets/banner.gif" alt="Mohd Shami — Machine Learning Engineer" width="100%"></a>
+<a href="https://mohdshamii.github.io"><img src="banner.gif" alt="Mohd Shami — Machine Learning Engineer" width="100%"></a>
 
 <div align="center">
 
@@ -11,15 +11,15 @@
 
 </div>
 
-<img src="assets/ticker.gif" alt="Tech stack ticker" width="100%">
+<img src="ticker.gif" alt="Tech stack ticker" width="100%">
 
 ## About
 
 I turn models into dependable products. My work covers the full lifecycle: data preparation, modeling, rigorous evaluation, API design, testing, and deployment. I care about measurable results, reproducibility, and systems that hold up outside a notebook.
 
-<img src="assets/neural.gif" alt="Train. Evaluate. Deploy." width="100%">
+<img src="neural.gif" alt="Train. Evaluate. Deploy." width="100%">
 
-<img src="assets/divider.gif" alt="" width="100%">
+<img src="divider.gif" alt="" width="100%">
 
 ## Focus Areas
 
@@ -28,7 +28,7 @@ I turn models into dependable products. My work covers the full lifecycle: data 
 - **ML Engineering:** REST API design, automated testing, experiment tracking, and containerized deployment.
 - **LLM Systems (growing focus):** Fine-tuning with PEFT/LoRA, retrieval-augmented generation, and efficient inference.
 
-<img src="assets/divider.gif" alt="" width="100%">
+<img src="divider.gif" alt="" width="100%">
 
 ## Technical Toolchain
 
@@ -41,7 +41,7 @@ I turn models into dependable products. My work covers the full lifecycle: data 
 | **Tracking & Tooling** | MLflow · Weights & Biases · Git · Jupyter |
 | **Exploring** | vLLM · Qdrant · FAISS · ONNX |
 
-<img src="assets/divider.gif" alt="" width="100%">
+<img src="divider.gif" alt="" width="100%">
 
 ## Engineering Principles
 
@@ -49,7 +49,7 @@ I turn models into dependable products. My work covers the full lifecycle: data 
 - **Build for production.** Version, test, and document what you ship.
 - **Keep it simple.** Prefer clear, maintainable solutions over unnecessary complexity.
 
-<img src="assets/divider.gif" alt="" width="100%">
+<img src="divider.gif" alt="" width="100%">
 
 ## GitHub Stats
 
@@ -58,7 +58,7 @@ I turn models into dependable products. My work covers the full lifecycle: data 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohdshamii&layout=compact&hide_border=true&langs_count=6&bg_color=0B0F24&title_color=E22429&text_color=FFFFFF" width="48%" alt="Top Languages" />
 </div>
 
-<img src="assets/divider.gif" alt="" width="100%">
+<img src="divider.gif" alt="" width="100%">
 
 ## Get in Touch
 
@@ -66,4 +66,4 @@ Open to collaboration, opportunities, and conversations about applied ML.
 
 📧 [codexshami@gmail.com](mailto:codexshami@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/mohdshamii) · 🌐 [Portfolio](https://mohdshamii.github.io)
 
-<img src="assets/ticker.gif" alt="Tech stack ticker" width="100%">
+<img src="ticker.gif" alt="Tech stack ticker" width="100%">
