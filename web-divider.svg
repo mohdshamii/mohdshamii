@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 64" role="img" aria-label="spider web divider">
+  <!-- web that draws itself -->
+  <g fill="none" stroke="#EAF2FF" stroke-opacity="0.55" stroke-width="1.4" stroke-dasharray="900" stroke-dashoffset="900">
+    <animate attributeName="stroke-dashoffset" from="900" to="0" dur="2.6s" begin="0.3s" fill="freeze"/>
+    <path d="M500,62 L500,12"/>
+    <path d="M500,62 L392,14"/>
+    <path d="M500,62 L608,14"/>
+    <path d="M180,14 L820,14"/>
+    <path d="M392,14 A108,78 0 0 0 608,14"/>
+    <path d="M446,14 A54,62 0 0 0 554,14"/>
+  </g>
+
+  <!-- red baseline -->
+  <g fill="none" stroke="#E62429" stroke-width="2" stroke-dasharray="700" stroke-dashoffset="700">
+    <animate attributeName="stroke-dashoffset" from="700" to="0" dur="1.8s" begin="1.4s" fill="freeze"/>
+    <path d="M180,56 L820,56"/>
+  </g>
+
+  <!-- spider at the junction -->
+  <g transform="translate(500,62)">
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#FF3340" stroke-width="2">
+      <animate attributeName="r" values="14;40" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="#E62429">
+      <ellipse cx="0" cy="0" rx="5" ry="7.5"/>
+      <circle cx="0" cy="-8.5" r="3.2"/>
+    </g>
+    <g stroke="#E62429" stroke-width="1.5" stroke-linecap="round" fill="none">
+      <path d="M-3.5,-3.5 C-9,-8 -14,-5 -18,-9"/>
+      <path d="M-4,0.5 C-11,-1 -15,1 -19,4"/>
+      <path d="M-3.5,3 C-9,5 -13,8 -17,12"/>
+      <path d="M3.5,-3.5 C9,-8 14,-5 18,-9"/>
+      <path d="M4,0.5 C11,-1 15,1 19,4"/>
+      <path d="M3.5,3 C9,5 13,8 17,12"/>
+    </g>
+  </g>
+</svg>
