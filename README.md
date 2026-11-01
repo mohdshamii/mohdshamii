@@ -30,7 +30,7 @@
 
 <img src="web-divider.svg" alt="Spider Web Divider" width="100%">
 
-## 🕷️ The Origin Story
+##  The Origin Story
 
 > *"The only true wisdom is in knowing you know nothing — but with great compute comes great responsibility."*
 
@@ -44,12 +44,12 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
 
 <img src="web-divider.svg" alt="Spider Web Divider" width="100%">
 
-## 🕸️ Spider-Sense & Core Domains
+##  Spider-Sense & Core Domains
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 Agentic AI &amp; LLM Systems</h3>
+      <h3> Agentic AI &amp; LLM Systems</h3>
       <ul>
         <li>Autonomous multi-agent orchestration, dynamic tool routing, and recursive reasoning swarms.</li>
         <li>Parameter-Efficient Fine-Tuning (PEFT, LoRA/QLoRA) and high-throughput inference serving.</li>
@@ -57,7 +57,7 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>👁️ Deep Learning &amp; Computer Vision</h3>
+      <h3> Deep Learning &amp; Computer Vision</h3>
       <ul>
         <li>Convolutional and vision transformer architectures for automated image pathology and segmentation.</li>
         <li>Real-time webcam telemetry, facial landmark detection, and temporal drowsiness/distraction tracking.</li>
@@ -67,7 +67,7 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ Applied ML &amp; Econometrics</h3>
+      <h3> Applied ML &amp; Econometrics</h3>
       <ul>
         <li>Classification, survival analysis, and customer retention systems (ChurnShield AI, HamOrSpam).</li>
         <li>District-level panel microdata modeling, velocity forecasting, and anomaly detection.</li>
@@ -75,7 +75,7 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🚀 Production Engineering &amp; MLOps</h3>
+      <h3> Production Engineering &amp; MLOps</h3>
       <ul>
         <li>High-concurrency microservice design using FastAPI, Flask, and asynchronous REST APIs.</li>
         <li>Docker containerization, reproducible execution pipelines, and experiment tracking (MLflow, W&amp;B).</li>
@@ -87,7 +87,7 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
 
 <img src="web-divider.svg" alt="Spider Web Divider" width="100%">
 
-## 🏙️ Multiverse Operations &amp; Featured Missions
+##  Multiverse Operations &amp; Featured Missions
 
 | Mission | Domain | Description | Arsenal |
 | :--- | :--- | :--- | :--- |
@@ -102,7 +102,7 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
 
 <img src="web-divider.svg" alt="Spider Web Divider" width="100%">
 
-## 🛠️ The Stark Tech Web Arsenal
+##  The Stark Tech Web Arsenal
 
 <p align="center">
   <img src="ticker.gif" alt="Tech Stack Ticker" width="100%">
@@ -169,7 +169,7 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
 
 <img src="web-divider.svg" alt="Spider Web Divider" width="100%">
 
-## 📊 Spider-Sense Live Telemetry
+##  Spider-Sense Live Telemetry
 
 <div align="center">
   <p><em>"With great code comes great responsibility."</em></p>
@@ -204,16 +204,16 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
 
 <img src="web-divider.svg" alt="Spider Web Divider" width="100%">
 
-## 🕸️ The Peter Parker Engineering Principles
+##  The Peter Parker Engineering Principles
 
-- 🕷️ **With great data comes great responsibility.** Never evaluate on test leakage. Select metrics that fit the business problem (ROC-AUC, Precision@K, F1), not vanity accuracy.
-- ⚡ **Build for the battlefield, not the notebook.** Wrap models in clean REST APIs, validate schemas with Pydantic, containerize with Docker, and monitor for data drift.
-- 🎯 **No black boxes without explainability.** Pair complex models with SHAP/LIME feature attribution so stakeholders understand why predictions are made.
-- 🧩 **Agile, robust, and low-latency.** Keep inference budgets lean, prioritize vectorized computation, and favor maintainable architecture over fragile complexity.
+-  **With great data comes great responsibility.** Never evaluate on test leakage. Select metrics that fit the business problem (ROC-AUC, Precision@K, F1), not vanity accuracy.
+-  **Build for the battlefield, not the notebook.** Wrap models in clean REST APIs, validate schemas with Pydantic, containerize with Docker, and monitor for data drift.
+-  **No black boxes without explainability.** Pair complex models with SHAP/LIME feature attribution so stakeholders understand why predictions are made.
+-  **Agile, robust, and low-latency.** Keep inference budgets lean, prioritize vectorized computation, and favor maintainable architecture over fragile complexity.
 
 <img src="web-divider.svg" alt="Spider Web Divider" width="100%">
 
-## 📡 Fire the Web-Signal // Get In Touch
+##  Fire the Web-Signal // Get In Touch
 
 Whether you want to discuss **Applied ML, Agentic Architectures, Production Systems**, or explore exciting opportunities, my frequency is always open:
 
