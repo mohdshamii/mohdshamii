@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="finaleSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020308"/>
+      <stop offset="45%" stop-color="#050918"/>
+      <stop offset="85%" stop-color="#18050A"/>
+      <stop offset="100%" stop-color="#280408"/>
+    </linearGradient>
+
+    <radialGradient id="finaleMoon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="30%" stop-color="#EAF3FF" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#FF1E27" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#050918" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="finaleAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF1E27" stop-opacity="0.5"/>
+      <stop offset="45%" stop-color="#00D2FF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="goldMottoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE072"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFB800"/>
+    </linearGradient>
+
+    <filter id="finaleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textWebGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    .finale-web-text {
+      font-family: 'Impact', 'Arial Black', sans-serif;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+    }
+    .motto-text {
+      font-family: 'Impact', 'Arial Black', sans-serif;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    /* Dramatic Landing & Web Weave Keyframes */
+    @keyframes finalLandingSway {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+
+    @keyframes webWeaveFormation {
+      0% {
+        stroke-dashoffset: 800;
+        opacity: 0.2;
+      }
+      50% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+      }
+      100% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+      }
+    }
+
+    @keyframes textGlowPulse {
+      0%, 100% {
+        opacity: 0.95;
+        filter: drop-shadow(0 0 6px #FF1E27);
+      }
+      50% {
+        opacity: 1;
+        filter: drop-shadow(0 0 16px #00D2FF);
+      }
+    }
+
+    @keyframes maskEyeBlink {
+      0%, 90%, 100% { transform: scaleY(1); }
+      95% { transform: scaleY(0.15); }
+    }
+  ]]></style>
+
+  <!-- Background Sky -->
+  <rect width="1000" height="520" rx="14" fill="url(#finaleSky)" stroke="#17365C" stroke-width="1.5"/>
+
+  <!-- Distant Moon -->
+  <g transform="translate(180, 110)">
+    <circle cx="0" cy="0" r="95" fill="url(#finaleMoon)"/>
+    <circle cx="0" cy="0" r="38" fill="#FFFFFF" opacity="0.95"/>
+    <ellipse cx="-10" cy="-6" rx="7" ry="5" fill="#DCE9F8" opacity="0.35"/>
+    <ellipse cx="12" cy="10" rx="8" ry="6" fill="#DCE9F8" opacity="0.3"/>
+  </g>
+
+  <!-- Background NYC Skyline Silhouettes -->
+  <g fill="#050C1B">
+    <rect x="20" y="260" width="55" height="260"/>
+    <rect x="90" y="220" width="60" height="300"/>
+    <polygon points="120,160 118,220 122,220" fill="#050C1B"/>
+    <rect x="165" y="270" width="70" height="250"/>
+    <rect x="250" y="210" width="80" height="310"/>
+    <rect x="345" y="250" width="70" height="270"/>
+    <rect x="430" y="190" width="85" height="330"/>
+    <polygon points="472,130 470,190 474,190" fill="#050C1B"/>
+    <rect x="530" y="240" width="75" height="280"/>
+    <rect x="620" y="200" width="80" height="320"/>
+    <rect x="715" y="260" width="65" height="260"/>
+    <rect x="795" y="220" width="80" height="300"/>
+    <rect x="890" y="250" width="85" height="270"/>
+  </g>
+
+  <!-- Distant Yellow Windows -->
+  <g fill="#FFECA8" opacity="0.7">
+    <rect x="100" y="240" width="4" height="6"/>
+    <rect x="114" y="240" width="4" height="6"/>
+    <rect x="100" y="255" width="4" height="6"/>
+    <rect x="128" y="270" width="4" height="6"/>
+    <rect x="265" y="230" width="5" height="7"/>
+    <rect x="285" y="230" width="5" height="7"/>
+    <rect x="265" y="250" width="5" height="7"/>
+    <rect x="300" y="250" width="5" height="7"/>
+    <rect x="445" y="210" width="5" height="7"/>
+    <rect x="465" y="210" width="5" height="7"/>
+    <rect x="485" y="210" width="5" height="7"/>
+    <rect x="445" y="230" width="5" height="7"/>
+    <rect x="485" y="230" width="5" height="7"/>
+    <rect x="635" y="220" width="5" height="7"/>
+    <rect x="655" y="220" width="5" height="7"/>
+    <rect x="675" y="220" width="5" height="7"/>
+    <rect x="810" y="240" width="5" height="7"/>
+    <rect x="830" y="240" width="5" height="7"/>
+    <rect x="850" y="240" width="5" height="7"/>
+  </g>
+
+  <!-- ================= THE WOVEN WEB TEXT FORMATION ================= -->
+  <!-- Top Center Web Network Canopy (480, 130) -->
+  <g transform="translate(560, 140)">
+    <!-- Expanding Radial Web Structure -->
+    <g fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1.4" filter="url(#finaleGlow)">
+      <!-- Outer Arc Webs -->
+      <path d="M-360,-40 Q0,-100 360,-40" stroke-dasharray="800" style="animation: webWeaveFormation 5s ease-in-out infinite;"/>
+      <path d="M-340,10 Q0,-60 340,10" stroke-dasharray="800" style="animation: webWeaveFormation 5s ease-in-out infinite; animation-delay: 0.3s;"/>
+      <path d="M-320,60 Q0,-20 320,60" stroke-dasharray="800" style="animation: webWeaveFormation 5s ease-in-out infinite; animation-delay: 0.6s;"/>
+      <path d="M-300,110 Q0,20 300,110" stroke-dasharray="800" style="animation: webWeaveFormation 5s ease-in-out infinite; animation-delay: 0.9s;"/>
+
+      <!-- Cross Strands connecting to Spidey shooter at (-320, 260) -->
+      <line x1="-320" y1="260" x2="-280" y2="-30" stroke-dasharray="500" style="animation: webWeaveFormation 5s ease-in-out infinite;"/>
+      <line x1="-320" y1="260" x2="-140" y2="-60" stroke-dasharray="500" style="animation: webWeaveFormation 5s ease-in-out infinite;"/>
+      <line x1="-320" y1="260" x2="0" y2="-75" stroke-dasharray="500" style="animation: webWeaveFormation 5s ease-in-out infinite;"/>
+      <line x1="-320" y1="260" x2="140" y2="-60" stroke-dasharray="500" style="animation: webWeaveFormation 5s ease-in-out infinite;"/>
+      <line x1="-320" y1="260" x2="280" y2="-30" stroke-dasharray="500" style="animation: webWeaveFormation 5s ease-in-out infinite;"/>
+    </g>
+
+    <!-- Glowing Spider Emblem Watermark behind Finale Message -->
+    <g transform="translate(0, 30) scale(1.6)" opacity="0.25">
+      <path d="M0,-16 C4,-16 7,-11 7,-5 C7,1 0,12 0,12 C0,12 -7,1 -7,-5 C-7,-11 -4,-16 0,-16 Z" fill="#FF1E27"/>
+      <path d="M-3,-9 C-16,-20 -30,-12 -40,-22 M3,-9 C16,-20 30,-12 40,-22" stroke="#FF1E27" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <path d="M-5,-4 C-20,-8 -34,-1 -44,6 M5,-4 C20,-8 34,-1 44,6" stroke="#FF1E27" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <path d="M-5,1 C-22,5 -34,14 -42,24 M5,1 C22,5 34,14 42,24" stroke="#FF1E27" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <path d="M-3,6 C-17,14 -26,26 -30,36 M3,6 C17,14 26,26 30,36" stroke="#FF1E27" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- THE FINALE MESSAGE FORMED BY WEBS -->
+    <!-- Drop Shadow / Glow Layer -->
+    <text x="0" y="32" text-anchor="middle" fill="#000000" class="finale-web-text" font-size="34" opacity="0.95">
+      THANK YOU FOR VISITING MY WORLD
+    </text>
+    <text x="0" y="30" text-anchor="middle" fill="#FF1E27" class="finale-web-text" font-size="34" filter="url(#textWebGlow)">
+      THANK YOU FOR VISITING MY WORLD
+    </text>
+    <!-- Foreground Pure Web Stroke Layer -->
+    <text x="0" y="30" text-anchor="middle" fill="#FFFFFF" stroke="#00D2FF" stroke-width="1.2" class="finale-web-text" font-size="34"
+          style="animation: textGlowPulse 4s ease-in-out infinite;">
+      THANK YOU FOR VISITING MY WORLD
+    </text>
+
+    <!-- Sub-Text Web Threads -->
+    <line x1="-280" y1="52" x2="280" y2="52" stroke="#FF1E27" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="-280" cy="52" r="3.5" fill="#FFFFFF"/>
+    <circle cx="280" cy="52" r="3.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- ================= THE ICONIC MOTTO BANNER ================= -->
+  <g transform="translate(560, 265)">
+    <!-- Comic Banner Box -->
+    <rect x="-350" y="-22" width="700" height="44" rx="8" fill="#060E1E" stroke="#FF1E27" stroke-width="2" filter="url(#finaleGlow)"/>
+    <rect x="-344" y="-16" width="688" height="32" rx="5" fill="#0A1832" stroke="#2B6CFF" stroke-width="1"/>
+
+    <!-- Marvel Gold & White Motto -->
+    <text x="0" y="6" text-anchor="middle" fill="url(#goldMottoGrad)" class="motto-text" font-size="20">
+      WITH GREAT CODE COMES GREAT RESPONSIBILITY.
+    </text>
+  </g>
+
+  <!-- ================= SPIDER-MAN HEROIC ROOFTOP LANDING ================= -->
+  <!-- Foreground Skyscraper Gargoyle Parapet (Left Side) -->
+  <g transform="translate(140, 360)" style="animation: finalLandingSway 5s ease-in-out infinite;">
+    <!-- Parapet Stone Ledge Base -->
+    <polygon points="-140,160 140,160 120,40 -140,40" fill="#020409" stroke="#17365C" stroke-width="1.5"/>
+    <!-- Gothic Gargoyle Cornice Block -->
+    <rect x="-50" y="24" width="130" height="24" rx="3" fill="#071224" stroke="#2B6CFF" stroke-width="1.2"/>
+    <polygon points="80,24 125,24 100,56 80,48" fill="#050C18"/>
+
+    <!-- Spider-Man Dramatic Three-Point Landing Pose -->
+    <g transform="translate(20, -10)">
+      <!-- Radial Hero Aura -->
+      <circle cx="0" cy="0" r="85" fill="url(#finaleAura)"/>
+
+      <!-- Left Leg (Anchored into parapet ledge) -->
+      <path d="M-8,14 L-32,24 L-44,42 L-28,44" fill="none" stroke="#0052CC" stroke-width="10" stroke-linecap="round"/>
+      <path d="M-44,42 L-24,44" fill="none" stroke="#D60E18" stroke-width="9" stroke-linecap="round"/>
+
+      <!-- Right Leg (Bent tight under chest) -->
+      <path d="M8,14 L28,26 L38,44 L22,46" fill="none" stroke="#0052CC" stroke-width="10" stroke-linecap="round"/>
+      <path d="M38,44 L22,46" fill="none" stroke="#D60E18" stroke-width="9" stroke-linecap="round"/>
+
+      <!-- Torso (Coiled spring arch) -->
+      <path d="M-12,-4 C-16,-18 0,-26 12,-26 C24,-26 16,-18 12,-4 C6,10 -6,10 -12,-4 Z" fill="#D60E18"/>
+      <!-- Blue Flanks -->
+      <path d="M-12,-4 C-16,4 -10,14 -4,14 C-8,10 -10,2 -12,-4 Z" fill="#0052CC"/>
+      <path d="M12,-4 C16,4 10,14 4,14 C8,10 10,2 12,-4 Z" fill="#0052CC"/>
+
+      <!-- Spider Back/Chest Emblem -->
+      <ellipse cx="0" cy="-6" rx="4" ry="6" fill="#030710"/>
+      <path d="M-2,-10 L-9,-16 M2,-10 L9,-16 M-2,-2 L-9,4 M2,-2 L9,4" stroke="#030710" stroke-width="1.4" stroke-linecap="round"/>
+
+      <!-- Left Arm (Pressed onto rooftop stone) -->
+      <path d="M-12,-8 L-28,4 L-34,36" fill="none" stroke="#D60E18" stroke-width="8" stroke-linecap="round"/>
+      <!-- Fist planted on stone -->
+      <ellipse cx="-34" cy="38" rx="6" ry="4" fill="#D60E18"/>
+
+      <!-- Right Arm (Extended shooting final web toward sky) -->
+      <path d="M12,-10 L30,-24 L52,-42" fill="none" stroke="#D60E18" stroke-width="8" stroke-linecap="round"/>
+      <!-- Wrist Web Shooter firing line -->
+      <circle cx="52" cy="-42" r="4.5" fill="#00D2FF" filter="url(#finaleGlow)"/>
+      <line x1="52" y1="-42" x2="100" y2="-90" stroke="#FFFFFF" stroke-width="2.5" filter="url(#finaleGlow)"/>
+
+      <!-- Head (Tilted up, direct eye contact with viewer) -->
+      <ellipse cx="0" cy="-36" rx="14" ry="16" fill="#D60E18"/>
+      <!-- Mask Web Lines -->
+      <path d="M0,-52 L0,-20 M-14,-36 L14,-36" stroke="#7A0006" stroke-width="1"/>
+      <circle cx="0" cy="-36" r="8" fill="none" stroke="#7A0006" stroke-width="0.9"/>
+
+      <!-- Dramatic Glowing White Mask Eyes (Blinking/Focusing) -->
+      <g style="transform-origin: 0 -36px; animation: maskEyeBlink 6s ease-in-out infinite;">
+        <!-- Left Eye -->
+        <path d="M-12,-39 C-10,-46 -2,-45 -1,-38 C-1,-30 -6,-28 -12,-33 Z" fill="#020409"/>
+        <path d="M-11,-39 C-9,-44 -3,-43 -2,-38 C-2,-32 -6,-30 -11,-34 Z" fill="#FFFFFF" filter="url(#finaleGlow)"/>
+
+        <!-- Right Eye -->
+        <path d="M12,-39 C10,-46 2,-45 1,-38 C1,-30 6,-28 12,-33 Z" fill="#020409"/>
+        <path d="M11,-39 C9,-44 3,-43 2,-38 C2,-32 6,-30 11,-34 Z" fill="#FFFFFF" filter="url(#finaleGlow)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Multiverse Signature Bar -->
+  <g transform="translate(500, 485)" text-anchor="middle">
+    <text x="0" y="0" fill="#8B9BB4" font-family="'SF Mono', Consolas, monospace" font-size="11" letter-spacing="3">
+      [ SECTOR: INDIA // REPOSITORY: MOHDSHAMII // MULTIVERSE TRANSMISSION COMPLETE ]
+    </text>
+  </g>
+</svg>
+

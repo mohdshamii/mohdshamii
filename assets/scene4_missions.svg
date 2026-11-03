@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="missionBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020308"/>
+      <stop offset="45%" stop-color="#060C1B"/>
+      <stop offset="100%" stop-color="#03050E"/>
+    </linearGradient>
+
+    <linearGradient id="missionCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B172F"/>
+      <stop offset="100%" stop-color="#050A14"/>
+    </linearGradient>
+
+    <linearGradient id="spideyRedGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF1E27"/>
+      <stop offset="100%" stop-color="#FF636B"/>
+    </linearGradient>
+
+    <filter id="missionGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    .mission-header {
+      font-family: 'Impact', 'Arial Black', sans-serif;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+    .card-title {
+      font-family: 'Impact', 'Arial Black', sans-serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+      fill: #FFFFFF;
+    }
+    .card-meta {
+      font-family: 'SF Mono', Consolas, monospace;
+      font-size: 9.5px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .card-desc {
+      font-family: 'Segoe UI', -apple-system, sans-serif;
+      font-size: 11.5px;
+      line-height: 16px;
+      fill: #CBD5E1;
+    }
+    .card-tags {
+      font-family: 'SF Mono', Consolas, monospace;
+      font-size: 9px;
+      letter-spacing: 1.5px;
+    }
+
+    /* Spider-Man swinging across mission deck */
+    @keyframes spideyPatrol {
+      0% {
+        transform: translate(60px, 45px) rotate(24deg);
+      }
+      25% {
+        transform: translate(320px, 75px) rotate(5deg);
+      }
+      50% {
+        transform: translate(520px, 50px) rotate(-15deg);
+      }
+      75% {
+        transform: translate(750px, 70px) rotate(-30deg);
+      }
+      90% {
+        transform: translate(920px, 35px) rotate(-45deg);
+        opacity: 1;
+      }
+      91% {
+        opacity: 0;
+        transform: translate(60px, 45px) rotate(24deg);
+      }
+      100% {
+        opacity: 1;
+        transform: translate(60px, 45px) rotate(24deg);
+      }
+    }
+
+    @keyframes webTraverseLine {
+      0%, 100% { stroke-dashoffset: 0; }
+      50% { stroke-dashoffset: -40; }
+    }
+  ]]></style>
+
+  <!-- Background Base -->
+  <rect width="1000" height="700" rx="14" fill="url(#missionBg)" stroke="#17365C" stroke-width="1.5"/>
+
+  <!-- Top Title HUD Bar -->
+  <g transform="translate(30, 44)">
+    <rect x="0" y="-18" width="8" height="26" fill="#FF1E27"/>
+    <text x="18" y="0" fill="#FFFFFF" class="mission-header" font-size="22">
+      SPIDER-MAN'S MISSIONS <tspan fill="#FF1E27">//</tspan> <tspan fill="#00D2FF">TACTICAL REPOSITORIES</tspan>
+    </text>
+    <text x="940" y="-2" text-anchor="end" fill="#8B9BB4" font-family="'SF Mono', Consolas, monospace" font-size="11" letter-spacing="2">
+      STATUS: VERIFIED OPEN SOURCE
+    </text>
+  </g>
+
+  <!-- ================= SPIDER-MAN PATROL WIRE & CHARACTER ================= -->
+  <!-- Aerial Web Traverse Line across top -->
+  <path d="M40,65 Q300,120 500,80 T960,60" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.6" stroke-dasharray="8,6"/>
+
+  <!-- Swinging Spider-Man Silhouette -->
+  <g style="animation: spideyPatrol 10s cubic-bezier(0.4, 0, 0.2, 1) infinite;">
+    <!-- Web lead -->
+    <line x1="0" y1="-30" x2="0" y2="0" stroke="#FFFFFF" stroke-width="1.6"/>
+    <!-- Suit -->
+    <ellipse cx="0" cy="0" rx="9" ry="13" fill="#D60E18"/>
+    <!-- Head -->
+    <ellipse cx="6" cy="-14" rx="6" ry="7" fill="#D60E18"/>
+    <!-- Glowing Eye -->
+    <polygon points="5,-17 10,-14 5,-13" fill="#FFFFFF" filter="url(#missionGlow)"/>
+    <!-- Limbs in mid-air acrobatic action -->
+    <path d="M-5,-4 L-16,-12 L-10,-24" stroke="#D60E18" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M-4,6 L-14,18 L-22,12" stroke="#0052CC" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M4,8 L10,20 L18,24" stroke="#0052CC" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Web Network Anchor Strands dropping to each Mission Card -->
+  <g stroke="#FF1E27" stroke-opacity="0.3" stroke-width="1.2" stroke-dasharray="4,4">
+    <line x1="260" y1="85" x2="260" y2="120"/>
+    <line x1="740" y1="85" x2="740" y2="120"/>
+    <line x1="260" y1="300" x2="260" y2="330"/>
+    <line x1="740" y1="300" x2="740" y2="330"/>
+    <line x1="500" y1="510" x2="500" y2="530"/>
+  </g>
+
+  <!-- ================= 5 CINEMATIC MISSION DOSSIERS ================= -->
+
+  <!-- MISSION 1: AGENTOPS (Top-Left) -->
+  <g transform="translate(30, 115)">
+    <rect width="455" height="175" rx="10" fill="url(#missionCardGrad)" stroke="#FF1E27" stroke-width="1.8"/>
+    <!-- Top Card Bar -->
+    <rect x="0" y="0" width="455" height="28" rx="10" fill="#14080D"/>
+    <circle cx="16" cy="14" r="4.5" fill="#FF1E27"/>
+    <text x="28" y="18" fill="#FF1E27" class="card-meta">MISSION 01 · MULTI-AGENT INTELLIGENCE</text>
+    <rect x="345" y="6" width="98" height="16" rx="4" fill="#0A1C38"/>
+    <text x="394" y="18" text-anchor="middle" fill="#00D2FF" font-family="'SF Mono', Consolas, monospace" font-size="8.5">TACTICAL SWARM</text>
+
+    <!-- Project Identity -->
+    <text x="18" y="58" class="card-title">AGENTOPS</text>
+    <text x="18" y="80" class="card-desc">
+      Enterprise-grade agentic AI platform designed for multi-step reasoning,
+    </text>
+    <text x="18" y="98" class="card-desc">
+      autonomous workflows, dynamic tool execution, and vector memory.
+    </text>
+    <text x="18" y="116" class="card-desc">
+      Integrates open-weight models: LLaMA 3.2, Mistral 7B, Qwen 2.5 &amp; DeepSeek R1.
+    </text>
+
+    <!-- Weapons Stack & Link -->
+    <line x1="18" y1="135" x2="437" y2="135" stroke="#17365C" stroke-width="1"/>
+    <text x="18" y="156" fill="#00D2FF" class="card-tags">
+      [ ARSENAL: Python · FastAPI · vLLM · Qdrant · Docker ]
+    </text>
+    <text x="435" y="156" text-anchor="end" fill="#FF1E27" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="bold">
+      VIEW REPO ➔
+    </text>
+  </g>
+
+  <!-- MISSION 2: HYDRORAKSH (Top-Right) -->
+  <g transform="translate(515, 115)">
+    <rect width="455" height="175" rx="10" fill="url(#missionCardGrad)" stroke="#00D2FF" stroke-width="1.8"/>
+    <rect x="0" y="0" width="455" height="28" rx="10" fill="#061628"/>
+    <circle cx="16" cy="14" r="4.5" fill="#00D2FF"/>
+    <text x="28" y="18" fill="#00D2FF" class="card-meta">MISSION 02 · GEOSPATIAL INTELLIGENCE</text>
+    <rect x="345" y="6" width="98" height="16" rx="4" fill="#082A2E"/>
+    <text x="394" y="18" text-anchor="middle" fill="#00F0FF" font-family="'SF Mono', Consolas, monospace" font-size="8.5">LIVE TELEMETRY</text>
+
+    <text x="18" y="58" class="card-title">HYDRORAKSH <tspan fill="#6B829E" font-size="14">(JalSuraksha)</tspan></text>
+    <text x="18" y="80" class="card-desc">
+      Authoritative, production-grade geospatial water intelligence platform
+    </text>
+    <text x="18" y="98" class="card-desc">
+      aggregating live groundwater, reservoir, rainfall, and water quality telemetry
+    </text>
+    <text x="18" y="116" class="card-desc">
+      across India (India-WRIS, CGWB, CWC, IMD, CPCB, Open-Meteo).
+    </text>
+
+    <line x1="18" y1="135" x2="437" y2="135" stroke="#17365C" stroke-width="1"/>
+    <text x="18" y="156" fill="#00D2FF" class="card-tags">
+      [ ARSENAL: Python · Geospatial APIs · Telemetry Pipeline ]
+    </text>
+    <text x="435" y="156" text-anchor="end" fill="#00D2FF" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="bold">
+      VIEW REPO ➔
+    </text>
+  </g>
+
+  <!-- MISSION 3: BHARATLENS (Mid-Left) -->
+  <g transform="translate(30, 315)">
+    <rect width="455" height="175" rx="10" fill="url(#missionCardGrad)" stroke="#FF1E27" stroke-width="1.8"/>
+    <rect x="0" y="0" width="455" height="28" rx="10" fill="#14080D"/>
+    <circle cx="16" cy="14" r="4.5" fill="#FF1E27"/>
+    <text x="28" y="18" fill="#FF1E27" class="card-meta">MISSION 03 · ECONOMETRIC VELOCITY &amp; SHAP</text>
+    <rect x="345" y="6" width="98" height="16" rx="4" fill="#1A1024"/>
+    <text x="394" y="18" text-anchor="middle" fill="#FF5E66" font-family="'SF Mono', Consolas, monospace" font-size="8.5">643 DISTRICTS</text>
+
+    <text x="18" y="58" class="card-title">BHARATLENS</text>
+    <text x="18" y="80" class="card-desc">
+      District-level econometric ML platform processing multi-period panel microdata
+    </text>
+    <text x="18" y="98" class="card-desc">
+      across 643 Indian districts. Models socioeconomic velocity, detects development
+    </text>
+    <text x="18" y="116" class="card-desc">
+      anomalies, and attributes predictive drivers using Explainable AI (SHAP).
+    </text>
+
+    <line x1="18" y1="135" x2="437" y2="135" stroke="#17365C" stroke-width="1"/>
+    <text x="18" y="156" fill="#00D2FF" class="card-tags">
+      [ ARSENAL: Python · Scikit-learn · SHAP · Polars · Streamlit ]
+    </text>
+    <text x="435" y="156" text-anchor="end" fill="#FF1E27" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="bold">
+      VIEW REPO ➔
+    </text>
+  </g>
+
+  <!-- MISSION 4: ATLAS (Mid-Right) -->
+  <g transform="translate(515, 315)">
+    <rect width="455" height="175" rx="10" fill="url(#missionCardGrad)" stroke="#00D2FF" stroke-width="1.8"/>
+    <rect x="0" y="0" width="455" height="28" rx="10" fill="#061628"/>
+    <circle cx="16" cy="14" r="4.5" fill="#00D2FF"/>
+    <text x="28" y="18" fill="#00D2FF" class="card-meta">MISSION 04 · CIVIC DATA VISUALIZATION</text>
+    <rect x="345" y="6" width="98" height="16" rx="4" fill="#0C2038"/>
+    <text x="394" y="18" text-anchor="middle" fill="#00D2FF" font-family="'SF Mono', Consolas, monospace" font-size="8.5">PANEL ENGINE</text>
+
+    <text x="18" y="58" class="card-title">ATLAS</text>
+    <text x="18" y="80" class="card-desc">
+      Interactive civic and geographic data visualization platform for India —
+    </text>
+    <text x="18" y="98" class="card-desc">
+      starting with Uttar Pradesh district-level panel data (2015–2024), architected
+    </text>
+    <text x="18" y="116" class="card-desc">
+      to scale dynamically across every Indian state without code rework.
+    </text>
+
+    <line x1="18" y1="135" x2="437" y2="135" stroke="#17365C" stroke-width="1"/>
+    <text x="18" y="156" fill="#00D2FF" class="card-tags">
+      [ ARSENAL: Python · Geographic Analytics · Visualization ]
+    </text>
+    <text x="435" y="156" text-anchor="end" fill="#00D2FF" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="bold">
+      VIEW REPO ➔
+    </text>
+  </g>
+
+  <!-- MISSION 5: DRIVER DROWSINESS DETECTION (Bottom-Center Hero Card) -->
+  <g transform="translate(160, 510)">
+    <rect width="680" height="155" rx="10" fill="url(#missionCardGrad)" stroke="#FF1E27" stroke-width="1.8"/>
+    <rect x="0" y="0" width="680" height="28" rx="10" fill="#14080D"/>
+    <circle cx="16" cy="14" r="4.5" fill="#FF1E27"/>
+    <text x="28" y="18" fill="#FF1E27" class="card-meta">MISSION 05 · REAL-TIME COMPUTER VISION &amp; SAFETY</text>
+    <rect x="560" y="6" width="108" height="16" rx="4" fill="#2A0A12"/>
+    <text x="614" y="18" text-anchor="middle" fill="#FF5E66" font-family="'SF Mono', Consolas, monospace" font-size="8.5">CV ATTENTION</text>
+
+    <text x="20" y="58" class="card-title">DRIVER DROWSINESS &amp; DISTRACTION DETECTION</text>
+    <text x="20" y="80" class="card-desc">
+      Real-time CV safety system monitoring driver vigilance via live camera stream (cv2.VideoCapture).
+    </text>
+    <text x="20" y="98" class="card-desc">
+      Detects faces and eyes using Haar Cascades, estimates fatigue via temporal tracking and mouth ROI yawning analysis.
+    </text>
+
+    <line x1="20" y1="116" x2="660" y2="116" stroke="#17365C" stroke-width="1"/>
+    <text x="20" y="137" fill="#00D2FF" class="card-tags">
+      [ ARSENAL: Python · OpenCV · Haar Cascades · Real-time Temporal Tracking ]
+    </text>
+    <text x="660" y="137" text-anchor="end" fill="#FF1E27" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="bold">
+      VIEW REPO ➔
+    </text>
+  </g>
+</svg>

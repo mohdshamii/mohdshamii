@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="connectBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020409"/>
+      <stop offset="50%" stop-color="#070E1E"/>
+      <stop offset="100%" stop-color="#03050C"/>
+    </linearGradient>
+
+    <linearGradient id="connectCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1932"/>
+      <stop offset="100%" stop-color="#060C18"/>
+    </linearGradient>
+
+    <radialGradient id="spideyCrouchGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF1E27" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#00D2FF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="webThwipGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    .connect-header {
+      font-family: 'Impact', 'Arial Black', sans-serif;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+    .beacon-title {
+      font-family: 'Segoe UI', -apple-system, sans-serif;
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: 1px;
+      fill: #FFFFFF;
+    }
+    .beacon-sub {
+      font-family: 'SF Mono', Consolas, monospace;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      fill: #8B9BB4;
+    }
+
+    /* Web pulse from shooter */
+    @keyframes thwipPulse {
+      0% { stroke-dashoffset: 300; stroke-opacity: 0.3; }
+      50% { stroke-dashoffset: 0; stroke-opacity: 1; }
+      100% { stroke-dashoffset: -300; stroke-opacity: 0.3; }
+    }
+
+    @keyframes spideyHoverPulse {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+
+    @keyframes beaconBlink {
+      0%, 100% { opacity: 0.9; }
+      50% { opacity: 0.35; }
+    }
+  ]]></style>
+
+  <!-- Background Base -->
+  <rect width="1000" height="480" rx="14" fill="url(#connectBg)" stroke="#17365C" stroke-width="1.5"/>
+
+  <!-- Top Title HUD Bar -->
+  <g transform="translate(30, 44)">
+    <rect x="0" y="-18" width="8" height="26" fill="#FF1E27"/>
+    <text x="18" y="0" fill="#FFFFFF" class="connect-header" font-size="22">
+      CONNECT WITH ME <tspan fill="#FF1E27">//</tspan> <tspan fill="#00D2FF">MULTIVERSE COMMS RADAR</tspan>
+    </text>
+    <text x="940" y="-2" text-anchor="end" fill="#8B9BB4" font-family="'SF Mono', Consolas, monospace" font-size="11" letter-spacing="2">
+      6 FREQUENCIES ACTIVE
+    </text>
+  </g>
+
+  <!-- ================= CENTER HERO: SPIDER-MAN CROUCHING & SHOOTING WEBS ================= -->
+  <!-- Center at (500, 245) -->
+  <g transform="translate(500, 245)" style="animation: spideyHoverPulse 5s ease-in-out infinite;">
+    <!-- Ambient Halo Glow -->
+    <circle cx="0" cy="0" r="110" fill="url(#spideyCrouchGlow)"/>
+
+    <!-- Dynamic Web Strands radiating from dual wrists to the 6 terminals -->
+    <g fill="none" stroke="#FFFFFF" stroke-width="1.8" filter="url(#webThwipGlow)">
+      <!-- Left Wrist at (-14, 2) -->
+      <!-- Web to Terminal 1: Portfolio (Top-Left) -->
+      <path d="M-14,-4 C-120,-60 -240,-110 -310,-125" stroke-dasharray="10,6" style="animation: thwipPulse 3.5s linear infinite;"/>
+      <!-- Web to Terminal 2: LinkedIn (Mid-Left) -->
+      <path d="M-16,2 C-140,10 -220,10 -310,5" stroke-dasharray="10,6" style="animation: thwipPulse 4s linear infinite;"/>
+      <!-- Web to Terminal 3: LeetCode (Bottom-Left) -->
+      <path d="M-14,8 C-120,60 -220,110 -310,135" stroke-dasharray="10,6" style="animation: thwipPulse 3.2s linear infinite;"/>
+
+      <!-- Right Wrist at (14, 2) -->
+      <!-- Web to Terminal 4: GitHub (Top-Right) -->
+      <path d="M14,-4 C120,-60 240,-110 310,-125" stroke-dasharray="10,6" style="animation: thwipPulse 3.8s linear infinite;"/>
+      <!-- Web to Terminal 5: Linktree (Mid-Right) -->
+      <path d="M16,2 C140,10 220,10 310,5" stroke-dasharray="10,6" style="animation: thwipPulse 4.2s linear infinite;"/>
+      <!-- Web to Terminal 6: Direct Email (Bottom-Right) -->
+      <path d="M14,8 C120,60 220,110 310,135" stroke-dasharray="10,6" style="animation: thwipPulse 3.6s linear infinite;"/>
+    </g>
+
+    <!-- Energy Spark Packets travelling along threads -->
+    <circle r="3.5" fill="#FF1E27" filter="url(#webThwipGlow)">
+      <animateMotion path="M-14,-4 C-120,-60 -240,-110 -310,-125" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" fill="#00D2FF" filter="url(#webThwipGlow)">
+      <animateMotion path="M-16,2 C-140,10 -220,10 -310,5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" fill="#FFA116" filter="url(#webThwipGlow)">
+      <animateMotion path="M-14,8 C-120,60 -220,110 -310,135" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" fill="#FFFFFF" filter="url(#webThwipGlow)">
+      <animateMotion path="M14,-4 C120,-60 240,-110 310,-125" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" fill="#43E660" filter="url(#webThwipGlow)">
+      <animateMotion path="M16,2 C140,10 220,10 310,5" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" fill="#FF1E27" filter="url(#webThwipGlow)">
+      <animateMotion path="M14,8 C120,60 220,110 310,135" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Rooftop Ledge Gargoyle where Spidey perches -->
+    <polygon points="-50,55 50,55 35,90 -35,90" fill="#060C16" stroke="#17365C" stroke-width="1.2"/>
+    <rect x="-42" y="55" width="84" height="6" fill="#0C1B34"/>
+
+    <!-- Spider-Man Crouched Ready-to-Leap Pose -->
+    <g transform="translate(0, 10)">
+      <!-- Left Leg (Bent Deep in Athletic Crouch) -->
+      <path d="M-6,22 L-28,32 L-36,44 L-24,46" fill="none" stroke="#0052CC" stroke-width="8" stroke-linecap="round"/>
+      <path d="M-36,44 L-22,46" fill="none" stroke="#D60E18" stroke-width="7" stroke-linecap="round"/>
+
+      <!-- Right Leg (Bent Deep in Athletic Crouch) -->
+      <path d="M6,22 L28,32 L36,44 L24,46" fill="none" stroke="#0052CC" stroke-width="8" stroke-linecap="round"/>
+      <path d="M36,44 L22,46" fill="none" stroke="#D60E18" stroke-width="7" stroke-linecap="round"/>
+
+      <!-- Torso -->
+      <path d="M-10,4 C-14,-8 0,-18 10,-18 C20,-18 14,-8 10,4 C5,16 -5,16 -10,4 Z" fill="#D60E18"/>
+      <!-- Blue Torso Sides -->
+      <path d="M-10,4 C-12,8 -8,18 -4,18 C-6,14 -8,8 -10,4 Z" fill="#0052CC"/>
+      <path d="M10,4 C12,8 8,18 4,18 C6,14 8,8 10,4 Z" fill="#0052CC"/>
+      <!-- Spider Chest Emblem -->
+      <ellipse cx="0" cy="2" rx="3.5" ry="5.5" fill="#050B14"/>
+      <path d="M-2,-2 L-8,-8 M2,-2 L8,-8 M-2,4 L-8,10 M2,4 L8,10" stroke="#050B14" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- Left Extended Arm & Wrist (Web Shooting) -->
+      <path d="M-8,-4 L-24,-8 L-34,-12" fill="none" stroke="#D60E18" stroke-width="6.5" stroke-linecap="round"/>
+      <circle cx="-34" cy="-12" r="3.5" fill="#FF1E27"/>
+      <!-- Muzzle Flash -->
+      <circle cx="-34" cy="-12" r="7" fill="none" stroke="#00D2FF" stroke-width="1.2" opacity="0.8"/>
+
+      <!-- Right Extended Arm & Wrist (Web Shooting) -->
+      <path d="M8,-4 L24,-8 L34,-12" fill="none" stroke="#D60E18" stroke-width="6.5" stroke-linecap="round"/>
+      <circle cx="34" cy="-12" r="3.5" fill="#FF1E27"/>
+      <circle cx="34" cy="-12" r="7" fill="none" stroke="#00D2FF" stroke-width="1.2" opacity="0.8"/>
+
+      <!-- Head (Facing Directly at Viewer) -->
+      <ellipse cx="0" cy="-24" rx="13" ry="14" fill="#D60E18"/>
+
+      <!-- Mask Webbing -->
+      <path d="M0,-38 L0,-10 M-13,-24 L13,-24" stroke="#7A0006" stroke-width="0.9"/>
+      <circle cx="0" cy="-24" r="7" fill="none" stroke="#7A0006" stroke-width="0.8"/>
+
+      <!-- Iconic Spider-Man Eyes (Glowing White Mask Lenses) -->
+      <!-- Left Eye -->
+      <path d="M-11,-27 C-9,-33 -2,-32 -1,-26 C-1,-20 -6,-18 -11,-22 Z" fill="#03070E"/>
+      <path d="M-10,-27 C-8,-31 -3,-31 -2,-26 C-2,-21 -6,-19 -10,-23 Z" fill="#FFFFFF" filter="url(#webThwipGlow)"/>
+
+      <!-- Right Eye -->
+      <path d="M11,-27 C9,-33 2,-32 1,-26 C1,-20 6,-18 11,-22 Z" fill="#03070E"/>
+      <path d="M10,-27 C8,-31 3,-31 2,-26 C2,-21 6,-19 10,-23 Z" fill="#FFFFFF" filter="url(#webThwipGlow)"/>
+    </g>
+  </g>
+
+  <!-- ================= 6 INTERACTIVE COMMS BEACONS ================= -->
+
+  <!-- BEACON 1: PORTFOLIO (Top-Left) -->
+  <g transform="translate(40, 80)">
+    <rect width="280" height="80" rx="8" fill="url(#connectCardGrad)" stroke="#FF1E27" stroke-width="1.8"/>
+    <circle cx="26" cy="40" r="15" fill="#14080D" stroke="#FF1E27" stroke-width="1.2"/>
+    <text x="26" y="46" text-anchor="middle" font-size="16">🌐</text>
+    <text x="52" y="32" class="beacon-title">PORTFOLIO</text>
+    <text x="52" y="52" class="beacon-sub">mohdshamii.github.io</text>
+    <circle cx="260" cy="40" r="5" fill="#FF1E27" style="animation: beaconBlink 2s infinite;"/>
+  </g>
+
+  <!-- BEACON 2: LINKEDIN (Mid-Left) -->
+  <g transform="translate(40, 200)">
+    <rect width="280" height="80" rx="8" fill="url(#connectCardGrad)" stroke="#2B6CFF" stroke-width="1.8"/>
+    <circle cx="26" cy="40" r="15" fill="#081426" stroke="#2B6CFF" stroke-width="1.2"/>
+    <text x="26" y="46" text-anchor="middle" font-size="16">💼</text>
+    <text x="52" y="32" class="beacon-title">LINKEDIN</text>
+    <text x="52" y="52" class="beacon-sub">linkedin.com/u/mohdshamii</text>
+    <circle cx="260" cy="40" r="5" fill="#2B6CFF" style="animation: beaconBlink 2.4s infinite;"/>
+  </g>
+
+  <!-- BEACON 3: LEETCODE (Bottom-Left) -->
+  <g transform="translate(40, 320)">
+    <rect width="280" height="80" rx="8" fill="url(#connectCardGrad)" stroke="#FFA116" stroke-width="1.8"/>
+    <circle cx="26" cy="40" r="15" fill="#1C1405" stroke="#FFA116" stroke-width="1.2"/>
+    <text x="26" y="46" text-anchor="middle" font-size="16">💻</text>
+    <text x="52" y="32" class="beacon-title">LEETCODE</text>
+    <text x="52" y="52" class="beacon-sub">leetcode.com/u/mohdshamii</text>
+    <circle cx="260" cy="40" r="5" fill="#FFA116" style="animation: beaconBlink 2.2s infinite;"/>
+  </g>
+
+  <!-- BEACON 4: GITHUB (Top-Right) -->
+  <g transform="translate(680, 80)">
+    <rect width="280" height="80" rx="8" fill="url(#connectCardGrad)" stroke="#FFFFFF" stroke-width="1.8"/>
+    <circle cx="26" cy="40" r="15" fill="#121620" stroke="#FFFFFF" stroke-width="1.2"/>
+    <text x="26" y="46" text-anchor="middle" font-size="16">🐙</text>
+    <text x="52" y="32" class="beacon-title">GITHUB</text>
+    <text x="52" y="52" class="beacon-sub">github.com/mohdshamii</text>
+    <circle cx="260" cy="40" r="5" fill="#FFFFFF" style="animation: beaconBlink 2.1s infinite;"/>
+  </g>
+
+  <!-- BEACON 5: LINKTREE (Mid-Right) -->
+  <g transform="translate(680, 200)">
+    <rect width="280" height="80" rx="8" fill="url(#connectCardGrad)" stroke="#43E660" stroke-width="1.8"/>
+    <circle cx="26" cy="40" r="15" fill="#081A0F" stroke="#43E660" stroke-width="1.2"/>
+    <text x="26" y="46" text-anchor="middle" font-size="16">🌲</text>
+    <text x="52" y="32" class="beacon-title">LINKTREE</text>
+    <text x="52" y="52" class="beacon-sub">linktr.ee/mdshami</text>
+    <circle cx="260" cy="40" r="5" fill="#43E660" style="animation: beaconBlink 2.5s infinite;"/>
+  </g>
+
+  <!-- BEACON 6: DIRECT FREQUENCY / EMAIL (Bottom-Right) -->
+  <g transform="translate(680, 320)">
+    <rect width="280" height="80" rx="8" fill="url(#connectCardGrad)" stroke="#FF1E27" stroke-width="1.8"/>
+    <circle cx="26" cy="40" r="15" fill="#14080D" stroke="#FF1E27" stroke-width="1.2"/>
+    <text x="26" y="46" text-anchor="middle" font-size="16">📬</text>
+    <text x="52" y="32" class="beacon-title">DIRECT EMAIL</text>
+    <text x="52" y="52" class="beacon-sub">codexshami@gmail.com</text>
+    <circle cx="260" cy="40" r="5" fill="#FF1E27" style="animation: beaconBlink 2s infinite;"/>
+  </g>
+
+  <!-- Bottom Frequency Note -->
+  <g transform="translate(500, 445)" text-anchor="middle">
+    <text x="0" y="0" fill="#6B829E" font-family="'SF Mono', Consolas, monospace" font-size="11" letter-spacing="3">
+      [ ALL FREQUENCIES MONITORED // RESPONSE LATENCY &lt; 24H ]
+    </text>
+  </g>
+</svg>
+

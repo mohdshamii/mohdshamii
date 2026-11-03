@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="techBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020409"/>
+      <stop offset="50%" stop-color="#060E1D"/>
+      <stop offset="100%" stop-color="#03060E"/>
+    </linearGradient>
+
+    <radialGradient id="techCoreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF1E27" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#00D2FF" stop-opacity="0.2"/>
+      <stop offset="80%" stop-color="#060E1D" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Node Gradients -->
+    <linearGradient id="nodeGradPython" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3776AB"/>
+      <stop offset="100%" stop-color="#FFD43B"/>
+    </linearGradient>
+
+    <linearGradient id="nodeGradDefault" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1E38"/>
+      <stop offset="100%" stop-color="#060D1A"/>
+    </linearGradient>
+
+    <filter id="neonPulse" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    .tech-header {
+      font-family: 'Impact', 'Arial Black', sans-serif;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+    .node-title {
+      font-family: 'Segoe UI', -apple-system, sans-serif;
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      fill: #FFFFFF;
+    }
+    .node-tag {
+      font-family: 'SF Mono', Consolas, monospace;
+      font-size: 8.5px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    /* Electrical web pulse */
+    @keyframes webEnergyFlow {
+      0% { stroke-dashoffset: 200; stroke-opacity: 0.3; }
+      50% { stroke-dashoffset: 0; stroke-opacity: 0.95; }
+      100% { stroke-dashoffset: -200; stroke-opacity: 0.3; }
+    }
+
+    @keyframes nodeHoverGlow {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.04); }
+    }
+
+    @keyframes radarSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  ]]></style>
+
+  <!-- Background Base -->
+  <rect width="1000" height="640" rx="14" fill="url(#techBg)" stroke="#17365C" stroke-width="1.5"/>
+
+  <!-- Top Section Title HUD -->
+  <g transform="translate(30, 44)">
+    <rect x="0" y="-18" width="8" height="26" fill="#FF1E27"/>
+    <text x="18" y="0" fill="#FFFFFF" class="tech-header" font-size="22">
+      THE WEB NETWORK <tspan fill="#FF1E27">//</tspan> <tspan fill="#00D2FF">TECHNOLOGICAL ARSENAL</tspan>
+    </text>
+    <text x="940" y="-2" text-anchor="end" fill="#8B9BB4" font-family="'SF Mono', Consolas, monospace" font-size="11" letter-spacing="2">
+      12 INTEGRATED WEAPON NODES
+    </text>
+  </g>
+
+  <!-- ================= THE GIANT SPIDER-WEB CONSTELLATION ================= -->
+  <!-- Center at (500, 340) -->
+  <g transform="translate(500, 340)">
+    <!-- Radial Ambient Aura -->
+    <circle cx="0" cy="0" r="280" fill="url(#techCoreGlow)"/>
+
+    <!-- Concentric Web Polygon Rings -->
+    <g fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.2">
+      <!-- Ring 1 -->
+      <polygon points="0,-70 50,-50 70,0 50,50 0,70 -50,50 -70,0 -50,-50"/>
+      <!-- Ring 2 -->
+      <polygon points="0,-140 100,-100 140,0 100,100 0,140 -100,100 -140,0 -100,-100"/>
+      <!-- Ring 3 -->
+      <polygon points="0,-210 150,-150 210,0 150,150 0,210 -150,150 -210,0 -150,-150"/>
+      <!-- Ring 4 (Outer Perimeter) -->
+      <polygon points="0,-275 195,-195 275,0 195,195 0,275 -195,195 -275,0 -195,-195"/>
+    </g>
+
+    <!-- Radiating Structural Web Strands (The Backbone Lines) -->
+    <g stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1.5">
+      <!-- Radial Spokes to the 12 Node Positions -->
+      <!-- Top group -->
+      <line x1="0" y1="0" x2="-220" y2="-210"/>
+      <line x1="0" y1="0" x2="0" y2="-230"/>
+      <line x1="0" y1="0" x2="220" y2="-210"/>
+
+      <!-- Mid-Top group -->
+      <line x1="0" y1="0" x2="-360" y2="-120"/>
+      <line x1="0" y1="0" x2="360" y2="-120"/>
+
+      <!-- Mid-Bottom group -->
+      <line x1="0" y1="0" x2="-360" y2="70"/>
+      <line x1="0" y1="0" x2="360" y2="70"/>
+
+      <!-- Bottom group -->
+      <line x1="0" y1="0" x2="-260" y2="190"/>
+      <line x1="0" y1="0" x2="-90" y2="230"/>
+      <line x1="0" y1="0" x2="90" y2="230"/>
+      <line x1="0" y1="0" x2="260" y2="190"/>
+      <line x1="0" y1="0" x2="0" y2="80"/>
+    </g>
+
+    <!-- Inter-Node Interconnect Web Lines (Forming the Spider Net) -->
+    <g stroke="#FF1E27" stroke-opacity="0.55" stroke-width="1.4" stroke-dasharray="8,6" style="animation: webEnergyFlow 6s linear infinite;" filter="url(#neonPulse)">
+      <line x1="-220" y1="-210" x2="0" y2="-230"/>
+      <line x1="0" y1="-230" x2="220" y2="-210"/>
+      <line x1="220" y1="-210" x2="360" y2="-120"/>
+      <line x1="360" y1="-120" x2="360" y2="70"/>
+      <line x1="360" y1="70" x2="260" y2="190"/>
+      <line x1="260" y1="190" x2="90" y2="230"/>
+      <line x1="90" y1="230" x2="-90" y2="230"/>
+      <line x1="-90" y1="230" x2="-260" y2="190"/>
+      <line x1="-260" y1="190" x2="-360" y2="70"/>
+      <line x1="-360" y1="70" x2="-360" y2="-120"/>
+      <line x1="-360" y1="-120" x2="-220" y2="-210"/>
+    </g>
+
+    <!-- Electric Pulses traveling along lines -->
+    <circle r="4" fill="#00D2FF" filter="url(#neonPulse)">
+      <animateMotion path="M0,0 L-220,-210 L0,-230 L220,-210 L360,-120 L360,70 L0,0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#FF1E27" filter="url(#neonPulse)">
+      <animateMotion path="M0,0 L-360,-120 L-360,70 L-260,190 L90,230 L0,0" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ================= CENTRAL SPIDER BRAIN HUB ================= -->
+    <g>
+      <circle cx="0" cy="0" r="42" fill="#060F22" stroke="#FF1E27" stroke-width="2.5" filter="url(#neonPulse)"/>
+      <circle cx="0" cy="0" r="34" fill="none" stroke="#00D2FF" stroke-width="1.5" stroke-dasharray="5,4"
+              style="animation: radarSpin 12s linear infinite; transform-origin: 0 0;"/>
+      <!-- Spider Center Emblem -->
+      <path d="M0,-14 C4,-14 7,-10 7,-4 C7,3 0,14 0,14 C0,14 -7,3 -7,-4 C-7,-10 -4,-14 0,-14 Z" fill="#FF1E27"/>
+      <text x="0" y="24" text-anchor="middle" fill="#00D2FF" font-family="'SF Mono', Consolas, monospace" font-size="8.5" font-weight="bold" letter-spacing="1">
+        AI CORE
+      </text>
+    </g>
+
+    <!-- ================= 12 TECH NODES ================= -->
+
+    <!-- NODE 1: PYTHON (Top-Left: -220, -210) -->
+    <g transform="translate(-220, -210)">
+      <rect x="-60" y="-24" width="120" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#3776AB" stroke-width="1.8"/>
+      <!-- Python Dual Snakes Icon -->
+      <g transform="translate(-38, -2) scale(0.7)">
+        <path d="M0,-14 C-7,-14 -12,-10 -12,-4 L-12,0 L-2,0 L-2,-4 C-2,-7 1,-9 6,-9 L12,-9 C16,-9 19,-6 19,-2 L19,5 L11,5 L11,7 L21,7 C26,7 29,3 29,-2 C29,-8 25,-14 18,-14 Z" fill="#3776AB"/>
+        <circle cx="4" cy="-6" r="1.5" fill="#FFFFFF"/>
+        <path d="M8,14 C15,14 20,10 20,4 L20,0 L10,0 L10,4 C10,7 7,9 2,9 L-4,9 C-8,9 -11,6 -11,2 L-11,-5 L-3,-5 L-3,-7 L-13,-7 C-18,-7 -21,-3 -21,2 C-21,8 -17,14 -10,14 Z" fill="#FFD43B"/>
+        <circle cx="4" cy="6" r="1.5" fill="#060E1D"/>
+      </g>
+      <text x="-6" y="-3" class="node-title">Python</text>
+      <text x="-6" y="14" class="node-tag" fill="#FFD43B">CORE LANGUAGE</text>
+    </g>
+
+    <!-- NODE 2: MACHINE LEARNING (Top-Center: 0, -230) -->
+    <g transform="translate(0, -230)">
+      <rect x="-68" y="-24" width="136" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#FF1E27" stroke-width="1.8"/>
+      <text x="-48" y="6" font-size="20">🤖</text>
+      <text x="-16" y="-3" class="node-title">Machine Learning</text>
+      <text x="-16" y="14" class="node-tag" fill="#FF5E66">ALGORITHMS</text>
+    </g>
+
+    <!-- NODE 3: DEEP LEARNING (Top-Right: 220, -210) -->
+    <g transform="translate(220, -210)">
+      <rect x="-68" y="-24" width="136" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#00D2FF" stroke-width="1.8"/>
+      <text x="-48" y="6" font-size="20">🧠</text>
+      <text x="-16" y="-3" class="node-title">Deep Learning</text>
+      <text x="-16" y="14" class="node-tag" fill="#00D2FF">NEURAL NETS</text>
+    </g>
+
+    <!-- NODE 4: SQL (Far-Left: -360, -120) -->
+    <g transform="translate(-360, -120)">
+      <rect x="-56" y="-24" width="112" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#4479A1" stroke-width="1.8"/>
+      <!-- SQL Database cylinder icon -->
+      <g transform="translate(-36, -8) scale(0.65)" stroke="#4479A1" stroke-width="2" fill="none">
+        <ellipse cx="12" cy="6" rx="10" ry="4" fill="#4479A1" opacity="0.3"/>
+        <path d="M2,6 L2,18 C2,20 6,22 12,22 C18,22 22,20 22,18 L22,6"/>
+        <path d="M2,12 C2,14 6,16 12,16 C18,16 22,14 22,12"/>
+      </g>
+      <text x="-6" y="-3" class="node-title">SQL</text>
+      <text x="-6" y="14" class="node-tag" fill="#88B8E6">DATA QUERYING</text>
+    </g>
+
+    <!-- NODE 5: SCIKIT-LEARN (Far-Right: 360, -120) -->
+    <g transform="translate(360, -120)">
+      <rect x="-66" y="-24" width="132" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#F7931E" stroke-width="1.8"/>
+      <text x="-48" y="6" font-size="18">⚙️</text>
+      <text x="-20" y="-3" class="node-title">Scikit-learn</text>
+      <text x="-20" y="14" class="node-tag" fill="#F7931E">PREDICTIVE ML</text>
+    </g>
+
+    <!-- NODE 6: R (Mid-Left: -360, 70) -->
+    <g transform="translate(-360, 70)">
+      <rect x="-50" y="-24" width="100" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#276DC3" stroke-width="1.8"/>
+      <text x="-32" y="6" font-family="'Impact', sans-serif" font-size="22" fill="#276DC3">R</text>
+      <text x="-6" y="-3" class="node-title">R Lang</text>
+      <text x="-6" y="14" class="node-tag" fill="#276DC3">STATISTICS</text>
+    </g>
+
+    <!-- NODE 7: XGBOOST (Mid-Right: 360, 70) -->
+    <g transform="translate(360, 70)">
+      <rect x="-60" y="-24" width="120" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#EB2526" stroke-width="1.8"/>
+      <text x="-42" y="6" font-size="18">🚀</text>
+      <text x="-16" y="-3" class="node-title">XGBoost</text>
+      <text x="-16" y="14" class="node-tag" fill="#FF5E66">GRADIENT BOOST</text>
+    </g>
+
+    <!-- NODE 8: FLASK (Bottom Outer Left: -260, 190) -->
+    <g transform="translate(-260, 190)">
+      <rect x="-56" y="-24" width="112" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#00D2FF" stroke-width="1.8"/>
+      <text x="-38" y="6" font-size="18">🧪</text>
+      <text x="-12" y="-3" class="node-title">Flask</text>
+      <text x="-12" y="14" class="node-tag" fill="#00D2FF">API SERVING</text>
+    </g>
+
+    <!-- NODE 9: POWER BI (Bottom Inner Left: -90, 230) -->
+    <g transform="translate(-90, 230)">
+      <rect x="-60" y="-24" width="120" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#F2C811" stroke-width="1.8"/>
+      <!-- Bar Chart Icon -->
+      <g transform="translate(-44, -10) scale(0.7)" fill="#F2C811">
+        <rect x="0" y="14" width="4" height="12" rx="1"/>
+        <rect x="7" y="8" width="4" height="18" rx="1"/>
+        <rect x="14" y="2" width="4" height="24" rx="1"/>
+      </g>
+      <text x="-12" y="-3" class="node-title">Power BI</text>
+      <text x="-12" y="14" class="node-tag" fill="#F2C811">DASHBOARDS</text>
+    </g>
+
+    <!-- NODE 10: TABLEAU (Bottom Inner Right: 90, 230) -->
+    <g transform="translate(90, 230)">
+      <rect x="-60" y="-24" width="120" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#E97627" stroke-width="1.8"/>
+      <text x="-42" y="6" font-size="18">📊</text>
+      <text x="-16" y="-3" class="node-title">Tableau</text>
+      <text x="-16" y="14" class="node-tag" fill="#E97627">BI ANALYTICS</text>
+    </g>
+
+    <!-- NODE 11: GIT (Bottom Outer Right: 260, 190) -->
+    <g transform="translate(260, 190)">
+      <rect x="-54" y="-24" width="108" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#F05032" stroke-width="1.8"/>
+      <!-- Git Branch Icon -->
+      <g transform="translate(-36, -8) scale(0.65)" stroke="#F05032" stroke-width="2" fill="none">
+        <circle cx="6" cy="6" r="3" fill="#F05032"/>
+        <circle cx="6" cy="22" r="3" fill="#F05032"/>
+        <circle cx="20" cy="12" r="3" fill="#F05032"/>
+        <line x1="6" y1="9" x2="6" y2="19"/>
+        <path d="M6,16 C12,16 14,14 17,12"/>
+      </g>
+      <text x="-8" y="-3" class="node-title">Git</text>
+      <text x="-8" y="14" class="node-tag" fill="#F05032">VERSION CTL</text>
+    </g>
+
+    <!-- NODE 12: GITHUB (Bottom Center Hub: 0, 80) -->
+    <g transform="translate(0, 80)">
+      <rect x="-60" y="-24" width="120" height="48" rx="8" fill="url(#nodeGradDefault)" stroke="#FFFFFF" stroke-width="1.8"/>
+      <text x="-42" y="6" font-size="18">🐙</text>
+      <text x="-14" y="-3" class="node-title">GitHub</text>
+      <text x="-14" y="14" class="node-tag" fill="#FFFFFF">COLLABORATION</text>
+    </g>
+  </g>
+
+  <!-- Bottom Indicator -->
+  <g transform="translate(500, 615)" text-anchor="middle">
+    <text x="0" y="0" fill="#6B829E" font-family="'SF Mono', Consolas, monospace" font-size="10.5" letter-spacing="2.5">
+      // SYSTEM STATUS: ALL 12 PROTOCOL NODES FULLY CHARGED &amp; OPERATIONAL //
+    </text>
+  </g>
+</svg>

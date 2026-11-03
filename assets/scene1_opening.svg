@@ -1,0 +1,576 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="100%" height="100%">
+  <defs>
+    <!-- Sky & Atmosphere Gradients -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020308"/>
+      <stop offset="45%" stop-color="#050B1A"/>
+      <stop offset="80%" stop-color="#14060B"/>
+      <stop offset="100%" stop-color="#260408"/>
+    </linearGradient>
+
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="30%" stop-color="#E2F1FF" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#2B6CFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#050B1A" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="spiderSenseGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF1E27" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#E62429" stop-opacity="0.25"/>
+      <stop offset="80%" stop-color="#00D2FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="titleRedGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF1E27"/>
+      <stop offset="35%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#FF1E27"/>
+      <stop offset="100%" stop-color="#990008"/>
+    </linearGradient>
+
+    <linearGradient id="spideyRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2B34"/>
+      <stop offset="60%" stop-color="#D60E18"/>
+      <stop offset="100%" stop-color="#7A0006"/>
+    </linearGradient>
+
+    <linearGradient id="spideyBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00A3FF"/>
+      <stop offset="50%" stop-color="#0052CC"/>
+      <stop offset="100%" stop-color="#031E54"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="cinematicGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="webPulseGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    /* Typography & Core Animations */
+    .title-main {
+      font-family: 'Impact', 'Arial Black', -apple-system, sans-serif;
+      font-weight: 900;
+      letter-spacing: 12px;
+      text-transform: uppercase;
+    }
+    .subtitle-tech {
+      font-family: 'Segoe UI', -apple-system, Roboto, 'Helvetica Neue', sans-serif;
+      font-weight: 800;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+    }
+    .hud-text {
+      font-family: 'SF Mono', 'Cascadia Code', Consolas, monospace;
+      font-size: 11px;
+      letter-spacing: 3px;
+    }
+
+    /* Swinging physics using keyframes */
+    @keyframes heroSwingAction {
+      0% {
+        transform: translate(-140px, -60px) rotate(38deg);
+      }
+      22% {
+        transform: translate(160px, 110px) rotate(12deg);
+      }
+      40% {
+        transform: translate(450px, 160px) rotate(-16deg);
+      }
+      52% {
+        transform: translate(680px, 90px) rotate(-34deg);
+      }
+      65% {
+        transform: translate(840px, -20px) rotate(-48deg);
+      }
+      70% {
+        transform: translate(960px, -120px) rotate(-55deg);
+        opacity: 1;
+      }
+      70.1% {
+        transform: translate(-200px, -100px) rotate(40deg);
+        opacity: 0;
+      }
+      74% {
+        transform: translate(-180px, -80px) rotate(40deg);
+        opacity: 0;
+      }
+      75% {
+        transform: translate(-140px, -60px) rotate(38deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translate(-140px, -60px) rotate(38deg);
+        opacity: 1;
+      }
+    }
+
+    @keyframes webFlexStretch {
+      0% {
+        d: path("M120,-40 Q180,60 210,130");
+      }
+      22% {
+        d: path("M120,-40 Q280,180 390,260");
+      }
+      40% {
+        d: path("M120,-40 Q380,210 590,270");
+      }
+      52% {
+        d: path("M120,-40 Q460,180 770,200");
+      }
+      65% {
+        d: path("M120,-40 Q520,110 890,70");
+      }
+      70% {
+        opacity: 0;
+      }
+      74% {
+        opacity: 0;
+      }
+      75% {
+        opacity: 1;
+        d: path("M120,-40 Q180,60 210,130");
+      }
+      100% {
+        opacity: 1;
+        d: path("M120,-40 Q180,60 210,130");
+      }
+    }
+
+    /* Web expansion burst */
+    @keyframes webBurstScale {
+      0%, 35% {
+        transform: scale(0.01);
+        opacity: 0;
+      }
+      45% {
+        transform: scale(0.6);
+        opacity: 0.9;
+      }
+      55% {
+        transform: scale(1.05);
+        opacity: 1;
+      }
+      60%, 100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* Neon Name Pulse & Reveal */
+    @keyframes marvelTitleReveal {
+      0%, 40% {
+        opacity: 0;
+        transform: translateY(24px) scale(0.92);
+        filter: blur(10px);
+      }
+      52% {
+        opacity: 1;
+        transform: translateY(0) scale(1.03);
+        filter: blur(0px);
+      }
+      60%, 100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0px);
+      }
+    }
+
+    @keyframes spiderSenseRadar {
+      0% {
+        r: 30px;
+        opacity: 0.9;
+      }
+      50% {
+        r: 160px;
+        opacity: 0.4;
+      }
+      100% {
+        r: 280px;
+        opacity: 0;
+      }
+    }
+
+    @keyframes cloudDriftA {
+      0% { transform: translateX(-160px); }
+      100% { transform: translateX(1100px); }
+    }
+    @keyframes cloudDriftB {
+      0% { transform: translateX(-260px); }
+      100% { transform: translateX(1050px); }
+    }
+
+    @keyframes windowFlicker {
+      0%, 100% { opacity: 0.85; }
+      25% { opacity: 0.3; }
+      50% { opacity: 1; }
+      75% { opacity: 0.4; }
+    }
+  ]]></style>
+
+  <!-- ================= SCENE 1: BACKGROUND SKY & ATMOSPHERE ================= -->
+  <rect width="1000" height="520" fill="url(#skyGrad)"/>
+
+  <!-- Moon with cinematic halo -->
+  <g transform="translate(820, 110)">
+    <circle cx="0" cy="0" r="110" fill="url(#moonGlow)"/>
+    <circle cx="0" cy="0" r="42" fill="#FFFFFF" opacity="0.92"/>
+    <!-- Subtle craters -->
+    <ellipse cx="-12" cy="-8" rx="8" ry="6" fill="#DCE9F8" opacity="0.4"/>
+    <ellipse cx="14" cy="12" rx="10" ry="8" fill="#DCE9F8" opacity="0.3"/>
+    <ellipse cx="-6" cy="16" rx="6" ry="5" fill="#DCE9F8" opacity="0.35"/>
+  </g>
+
+  <!-- Twinkling Stars -->
+  <g fill="#EAF3FF">
+    <circle cx="95" cy="45" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="75" r="1.1"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="30" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="390" cy="85" r="1.2"><animate attributeName="opacity" values="1;0.3;1" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="490" cy="40" r="1.7"><animate attributeName="opacity" values="0.4;1;0.4" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="610" cy="65" r="1.3"><animate attributeName="opacity" values="0.9;0.1;0.9" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="710" cy="25" r="1.6"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="60" r="1.4"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Drifting Cinematic Night Clouds -->
+  <g opacity="0.22" fill="#1A2B4C">
+    <g style="animation: cloudDriftA 48s linear infinite;">
+      <ellipse cx="80" cy="110" rx="160" ry="32"/>
+      <ellipse cx="180" cy="95" rx="110" ry="26"/>
+      <ellipse cx="260" cy="115" rx="90" ry="22"/>
+    </g>
+    <g style="animation: cloudDriftB 65s linear infinite;">
+      <ellipse cx="480" cy="160" rx="220" ry="42"/>
+      <ellipse cx="620" cy="140" rx="140" ry="32"/>
+    </g>
+  </g>
+
+  <!-- ================= NYC SKYLINE SILHOUETTES (MULTI-LAYER DEPTH) ================= -->
+  <!-- Far Silhouette (Dark Blue Haze) -->
+  <g fill="#071226" opacity="0.8">
+    <rect x="30" y="240" width="45" height="280"/>
+    <rect x="90" y="210" width="55" height="310"/>
+    <rect x="160" y="260" width="50" height="260"/>
+    <polygon points="185,170 183,260 187,260" fill="#071226"/>
+    <rect x="230" y="190" width="70" height="330"/>
+    <polygon points="265,140 263,190 267,190" fill="#071226"/>
+    <rect x="320" y="230" width="55" height="290"/>
+    <rect x="395" y="180" width="85" height="340"/>
+    <polygon points="437,120 435,180 439,180" fill="#071226"/>
+    <rect x="500" y="250" width="60" height="270"/>
+    <rect x="580" y="200" width="75" height="320"/>
+    <rect x="675" y="170" width="70" height="350"/>
+    <polygon points="710,110 708,170 712,170" fill="#071226"/>
+    <rect x="765" y="230" width="55" height="290"/>
+    <rect x="840" y="210" width="65" height="310"/>
+    <rect x="920" y="250" width="60" height="270"/>
+  </g>
+
+  <!-- Mid Skyline (Deep Onyx with Lit Windows) -->
+  <g fill="#040711">
+    <!-- Building 1 -->
+    <rect x="0" y="280" width="80" height="240"/>
+    <!-- Building 2 (Empire style stepback) -->
+    <rect x="95" y="230" width="70" height="290"/>
+    <rect x="105" y="190" width="50" height="40"/>
+    <rect x="115" y="160" width="30" height="30"/>
+    <polygon points="130,90 128,160 132,160" fill="#040711"/>
+    <!-- Red antenna warning blink -->
+    <circle cx="130" cy="90" r="2.5" fill="#FF1E27">
+      <animate attributeName="opacity" values="1;0.1;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Building 3 -->
+    <rect x="180" y="310" width="60" height="210"/>
+    <!-- Building 4 -->
+    <rect x="255" y="250" width="75" height="270"/>
+    <!-- Building 5 (Chrysler inspired spire) -->
+    <rect x="350" y="220" width="80" height="300"/>
+    <polygon points="390,140 365,220 415,220" fill="#040711"/>
+    <polygon points="390,75 388,140 392,140" fill="#040711"/>
+    <circle cx="390" cy="75" r="2.5" fill="#FF1E27">
+      <animate attributeName="opacity" values="1;0.1;1" dur="1.2s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Center Bridge & Mid towers -->
+    <rect x="450" y="300" width="90" height="220"/>
+    <rect x="560" y="240" width="80" height="280"/>
+    <rect x="660" y="270" width="65" height="250"/>
+    <!-- Right High-rise -->
+    <rect x="740" y="210" width="85" height="310"/>
+    <polygon points="782,130 780,210 784,210" fill="#040711"/>
+    <circle cx="782" cy="130" r="2.5" fill="#FF1E27">
+      <animate attributeName="opacity" values="1;0.1;1" dur="1.2s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="845" y="260" width="70" height="260"/>
+    <rect x="930" y="220" width="70" height="300"/>
+  </g>
+
+  <!-- Glowing Yellow & Blue Windows in Skylines -->
+  <g fill="#FFECA8" opacity="0.75">
+    <!-- Left building lights -->
+    <rect x="108" y="245" width="4" height="6"/>
+    <rect x="120" y="245" width="4" height="6"/>
+    <rect x="132" y="245" width="4" height="6"/>
+    <rect x="144" y="245" width="4" height="6"/>
+    <rect x="108" y="260" width="4" height="6" style="animation: windowFlicker 4s infinite;"/>
+    <rect x="132" y="260" width="4" height="6"/>
+    <rect x="120" y="275" width="4" height="6"/>
+    <rect x="144" y="275" width="4" height="6"/>
+    <rect x="108" y="290" width="4" height="6"/>
+    <rect x="132" y="290" width="4" height="6" style="animation: windowFlicker 3s infinite;"/>
+
+    <!-- Mid building lights -->
+    <rect x="270" y="270" width="5" height="7"/>
+    <rect x="285" y="270" width="5" height="7"/>
+    <rect x="300" y="270" width="5" height="7"/>
+    <rect x="270" y="290" width="5" height="7"/>
+    <rect x="300" y="290" width="5" height="7"/>
+    <rect x="285" y="310" width="5" height="7" style="animation: windowFlicker 5s infinite;"/>
+
+    <!-- Chrysler lights -->
+    <rect x="365" y="240" width="4" height="6"/>
+    <rect x="380" y="240" width="4" height="6"/>
+    <rect x="395" y="240" width="4" height="6"/>
+    <rect x="410" y="240" width="4" height="6"/>
+    <rect x="365" y="258" width="4" height="6"/>
+    <rect x="395" y="258" width="4" height="6" style="animation: windowFlicker 3.5s infinite;"/>
+    <rect x="380" y="276" width="4" height="6"/>
+    <rect x="410" y="276" width="4" height="6"/>
+
+    <!-- Right tower lights -->
+    <rect x="755" y="235" width="4" height="6"/>
+    <rect x="770" y="235" width="4" height="6"/>
+    <rect x="785" y="235" width="4" height="6"/>
+    <rect x="800" y="235" width="4" height="6"/>
+    <rect x="755" y="252" width="4" height="6" style="animation: windowFlicker 4.5s infinite;"/>
+    <rect x="785" y="252" width="4" height="6"/>
+    <rect x="770" y="270" width="4" height="6"/>
+    <rect x="800" y="270" width="4" height="6"/>
+    <rect x="755" y="288" width="4" height="6"/>
+    <rect x="785" y="288" width="4" height="6"/>
+  </g>
+
+  <!-- Cyan/Blue Corporate Windows -->
+  <g fill="#5CE1E6" opacity="0.65">
+    <rect x="465" y="320" width="5" height="8"/>
+    <rect x="485" y="320" width="5" height="8"/>
+    <rect x="505" y="320" width="5" height="8"/>
+    <rect x="465" y="340" width="5" height="8"/>
+    <rect x="505" y="340" width="5" height="8" style="animation: windowFlicker 6s infinite;"/>
+
+    <rect x="580" y="265" width="6" height="9"/>
+    <rect x="600" y="265" width="6" height="9"/>
+    <rect x="620" y="265" width="6" height="9"/>
+    <rect x="580" y="285" width="6" height="9"/>
+    <rect x="620" y="285" width="6" height="9"/>
+
+    <rect x="860" y="280" width="5" height="8"/>
+    <rect x="880" y="280" width="5" height="8"/>
+    <rect x="860" y="300" width="5" height="8"/>
+    <rect x="880" y="300" width="5" height="8" style="animation: windowFlicker 4s infinite;"/>
+  </g>
+
+  <!-- Foreground Dramatic Rooftop Ledges (Camera Framing) -->
+  <polygon points="0,520 0,410 140,460 210,520" fill="#010307"/>
+  <polygon points="1000,520 1000,390 840,450 780,520" fill="#010307"/>
+  <!-- Rooftop antenna & AC unit -->
+  <rect x="30" y="380" width="22" height="30" fill="#010307"/>
+  <line x1="41" y1="380" x2="41" y2="340" stroke="#010307" stroke-width="2.5"/>
+  <rect x="890" y="370" width="30" height="22" fill="#010307"/>
+
+  <!-- ================= SCENE 2: SPIDER-MAN SWINGING ACTION ================= -->
+  <!-- Top Web Anchor Point on Spire -->
+  <circle cx="120" cy="-40" r="4" fill="#FFFFFF"/>
+
+  <!-- Dynamic Flex Web Strand (Moves with Spider-Man) -->
+  <path style="animation: webFlexStretch 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;"
+        fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" filter="url(#webPulseGlow)"/>
+
+  <!-- Animated Spider-Man Character (Realistic Swinging Hero Group) -->
+  <g style="animation: heroSwingAction 7s cubic-bezier(0.4, 0, 0.2, 1) infinite; transform-origin: 120px -40px;">
+    <!-- Spider-Man Pivot Point Center at (220, 160) -->
+    <g transform="translate(200, 140)">
+      <!-- Spider-Sense Halo Pulse around head -->
+      <g opacity="0.8">
+        <circle cx="18" cy="-22" r="28" fill="none" stroke="#FF1E27" stroke-width="1.8" stroke-dasharray="4,3">
+          <animate attributeName="r" values="22;42;22" dur="1.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.9;0.1;0.9" dur="1.2s" repeatCount="indefinite"/>
+        </circle>
+        <path d="M18,-42 L18,-54" stroke="#FF1E27" stroke-width="2" stroke-linecap="round"/>
+        <path d="M6,-38 L-3,-47" stroke="#FF1E27" stroke-width="2" stroke-linecap="round"/>
+        <path d="M30,-38 L39,-47" stroke="#FF1E27" stroke-width="2" stroke-linecap="round"/>
+      </g>
+
+      <!-- Web-Holding Arm (Reaching up to the web line) -->
+      <path d="M10,-12 L22,-52 L26,-72" fill="none" stroke="url(#spideyRed)" stroke-width="9" stroke-linecap="round"/>
+      <!-- Hand gripping web -->
+      <circle cx="26" cy="-72" r="6" fill="#D60E18"/>
+
+      <!-- Legs (Dynamic Swung Back Pose) -->
+      <!-- Back Leg (Blue suit with red boot) -->
+      <path d="M-12,18 L-36,36 L-62,28" fill="none" stroke="url(#spideyBlue)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M-62,28 L-84,24" fill="none" stroke="url(#spideyRed)" stroke-width="7" stroke-linecap="round"/>
+
+      <!-- Front Leg (Tucked forward for agility) -->
+      <path d="M2,20 L12,48 L-14,68" fill="none" stroke="url(#spideyBlue)" stroke-width="9" stroke-linecap="round"/>
+      <path d="M-14,68 L-28,88" fill="none" stroke="url(#spideyRed)" stroke-width="8" stroke-linecap="round"/>
+
+      <!-- Torso (Muscular Spider-Man body arc) -->
+      <path d="M-6,-18 C14,-14 24,-2 18,22 C10,26 -8,22 -12,8 C-16,-4 -12,-16 -6,-18 Z" fill="url(#spideyRed)"/>
+      <!-- Blue Torso Flanks -->
+      <path d="M-10,0 C-14,8 -12,18 -8,22 C-4,18 -6,6 -10,0 Z" fill="url(#spideyBlue)"/>
+      <path d="M12,4 C18,12 16,22 12,24 C10,18 10,8 12,4 Z" fill="url(#spideyBlue)"/>
+
+      <!-- Chest Spider Emblem (Black/Dark Crimson) -->
+      <path d="M3,-2 L1,-8 L5,-8 Z M3,-2 L0,4 L6,4 Z" fill="#050B14"/>
+      <path d="M0,-4 L-6,-8 M6,-4 L12,-8 M-1,1 L-7,5 M7,1 L13,5" stroke="#050B14" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- Trailing Arm (Poised in web-shooter pose) -->
+      <path d="M-8,-10 L-28,-6 L-44,-16" fill="none" stroke="url(#spideyRed)" stroke-width="8" stroke-linecap="round"/>
+      <!-- Web shooter wrist cuff -->
+      <rect x="-46" y="-18" width="4" height="6" fill="#00D2FF" rx="1"/>
+
+      <!-- Head (Tilted along flight path) -->
+      <ellipse cx="16" cy="-22" rx="12" ry="14" fill="url(#spideyRed)"/>
+
+      <!-- Iconic Spider-Man Large White Eyes (Glowing Mask Lenses) -->
+      <!-- Black Outer Contour -->
+      <path d="M12,-26 C16,-31 24,-30 26,-24 C26,-18 20,-16 13,-20 Z" fill="#02050A"/>
+      <!-- White Glow Lens -->
+      <path d="M13,-25 C17,-29 23,-28 24,-24 C24,-19 20,-17 14,-20 Z" fill="#FFFFFF" filter="url(#webPulseGlow)"/>
+
+      <!-- Left Eye (Perspective foreshortened) -->
+      <path d="M8,-25 C6,-29 1,-28 0,-24 C0,-19 4,-17 8,-20 Z" fill="#02050A"/>
+      <path d="M7,-24 C5,-28 2,-27 1,-24 C1,-20 4,-18 7,-20 Z" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- ================= SCENE 3: WEB NAME REVEAL & TITLE SEQUENCE ================= -->
+  <!-- Centered Radial Web Network (Forms dynamically as web hits screen) -->
+  <g transform="translate(500, 260)" style="animation: webBurstScale 7s cubic-bezier(0.16, 1, 0.3, 1) infinite; transform-origin: 500px 260px;">
+    <!-- Spider-Sense Energy Halo -->
+    <circle cx="0" cy="0" r="140" fill="url(#spiderSenseGlow)"/>
+
+    <!-- Concentric Web Rings -->
+    <g fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.2" filter="url(#webPulseGlow)">
+      <!-- Octagonal Web Layers -->
+      <polygon points="0,-45 32,-32 45,0 32,32 0,45 -32,32 -45,0 -32,-32" stroke-dasharray="300" stroke-dashoffset="0"/>
+      <polygon points="0,-95 67,-67 95,0 67,67 0,95 -67,67 -95,0 -67,-67" stroke-dasharray="600" stroke-dashoffset="0"/>
+      <polygon points="0,-155 110,-110 155,0 110,110 0,155 -110,110 -155,0 -110,-110" stroke-dasharray="900" stroke-dashoffset="0"/>
+      <polygon points="0,-215 152,-152 215,0 152,152 0,215 -152,152 -215,0 -152,-152" stroke-dasharray="1400" stroke-dashoffset="0"/>
+    </g>
+
+    <!-- Structural Web Spoke Lines radiating to edge of screen -->
+    <g stroke="#FFFFFF" stroke-opacity="0.65" stroke-width="1.6" filter="url(#webPulseGlow)">
+      <line x1="0" y1="0" x2="0" y2="-240"/>
+      <line x1="0" y1="0" x2="0" y2="240"/>
+      <line x1="0" y1="0" x2="-480" y2="0"/>
+      <line x1="0" y1="0" x2="480" y2="0"/>
+      <line x1="0" y1="0" x2="-360" y2="-220"/>
+      <line x1="0" y1="0" x2="360" y2="-220"/>
+      <line x1="0" y1="0" x2="-360" y2="220"/>
+      <line x1="0" y1="0" x2="360" y2="220"/>
+    </g>
+
+    <!-- Glowing Spider Emblem Watermark behind Name -->
+    <g transform="scale(1.8)" opacity="0.32" filter="url(#cinematicGlow)">
+      <path d="M0,-18 C5,-18 9,-13 9,-7 C9,0 0,14 0,14 C0,14 -9,0 -9,-7 C-9,-13 -5,-18 0,-18 Z" fill="#FF1E27"/>
+      <!-- Spider Legs extending -->
+      <path d="M-4,-10 C-18,-24 -36,-14 -46,-26 M4,-10 C18,-24 36,-14 46,-26" stroke="#FF1E27" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <path d="M-6,-4 C-24,-10 -40,-2 -52,6 M6,-4 C24,-10 40,-2 52,6" stroke="#FF1E27" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <path d="M-6,2 C-26,6 -40,16 -48,28 M6,2 C26,6 40,16 48,28" stroke="#FF1E27" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <path d="M-4,8 C-20,18 -32,32 -36,44 M4,8 C20,18 32,32 36,44" stroke="#FF1E27" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+  </g>
+
+  <!-- ================= SCENE 4: CINEMATIC MARVEL TITLE SEQUENCE ================= -->
+  <g style="animation: marvelTitleReveal 7s cubic-bezier(0.16, 1, 0.3, 1) infinite;">
+    <!-- Top HUD Coordinates Badge -->
+    <g transform="translate(500, 175)" text-anchor="middle">
+      <rect x="-190" y="-14" width="380" height="24" rx="4" fill="#040914" stroke="#FF1E27" stroke-width="1.2" opacity="0.9"/>
+      <text x="0" y="3" fill="#00D2FF" class="hud-text" font-weight="bold">
+        // PROTOCOL: SPIDER-SENSE ACTIVE · SECTOR 2027 //
+      </text>
+    </g>
+
+    <!-- Main Title: MOHD SHAMI -->
+    <!-- Black Background Drop Shadow for Massive Contrast -->
+    <text x="502" y="272" text-anchor="middle" fill="#000000" class="title-main" font-size="78" opacity="0.95">
+      MOHD SHAMI
+    </text>
+    <!-- Red Cyber Glow Layer -->
+    <text x="500" y="270" text-anchor="middle" fill="#FF1E27" class="title-main" font-size="78" filter="url(#softGlow)" opacity="0.8">
+      MOHD SHAMI
+    </text>
+    <!-- Crisp Foreground Metallic/Red Gradient Layer -->
+    <text x="500" y="270" text-anchor="middle" fill="url(#titleRedGrad)" stroke="#FFFFFF" stroke-width="1.5" class="title-main" font-size="78">
+      MOHD SHAMI
+    </text>
+
+    <!-- Animated Red Crossbars framing Subtitle -->
+    <g transform="translate(500, 315)">
+      <line x1="-340" y1="0" x2="-220" y2="0" stroke="#FF1E27" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="-220" cy="0" r="3" fill="#FFFFFF"/>
+      
+      <!-- Subtitle Pill -->
+      <rect x="-210" y="-15" width="420" height="30" rx="6" fill="#070F22" stroke="#2B6CFF" stroke-width="1.6"/>
+      <text x="0" y="5" text-anchor="middle" fill="#EAF3FF" class="subtitle-tech" font-size="14">
+        DATA SCIENCE ENGINEER <tspan fill="#FF1E27">|</tspan> AI/ML DEVELOPER
+      </text>
+
+      <circle cx="220" cy="0" r="3" fill="#FFFFFF"/>
+      <line x1="220" y1="0" x2="340" y2="0" stroke="#FF1E27" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Bottom Narrative Teaser -->
+    <g transform="translate(500, 365)" text-anchor="middle">
+      <text x="0" y="0" fill="#9FBAD4" font-family="'SF Mono', Consolas, monospace" font-size="12" letter-spacing="4">
+        &lt; WEAVING PRODUCTION INTELLIGENCE FROM DATA TO DEPLOYMENT &gt;
+      </text>
+    </g>
+  </g>
+
+  <!-- ================= CINEMATIC BORDER & CORNER WEBS ================= -->
+  <!-- Sleek Red HUD Frame -->
+  <rect x="12" y="12" width="976" height="496" rx="10" fill="none" stroke="#FF1E27" stroke-opacity="0.3" stroke-width="1.5"/>
+  
+  <!-- Corner Web Accents -->
+  <g stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1.2" fill="none">
+    <!-- Top-Left -->
+    <path d="M12,50 L50,12 M12,85 L85,12 M12,120 L120,12"/>
+    <path d="M50,12 A42,42 0 0 1 12,50"/>
+    <path d="M85,12 A75,75 0 0 1 12,85"/>
+    <!-- Top-Right -->
+    <path d="M988,50 L950,12 M988,85 L915,12 M988,120 L880,12"/>
+    <path d="M950,12 A42,42 0 0 0 988,50"/>
+    <path d="M915,12 A75,75 0 0 0 988,85"/>
+    <!-- Bottom-Left -->
+    <path d="M12,470 L50,508 M12,435 L85,508"/>
+    <!-- Bottom-Right -->
+    <path d="M988,470 L950,508 M988,435 L915,508"/>
+  </g>
+</svg>
