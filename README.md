@@ -132,9 +132,8 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
      the final web weaving: 'THANK YOU FOR VISITING MY WORLD' and ending with
      'WITH GREAT CODE COMES GREAT RESPONSIBILITY.'
      ========================================================================= -->
-<img src="assets/scene6_finale.svg" alt="Act VI: Cinematic Finale — Thank You For Visiting My World" width="100%">
 
-=======
+
 ##  Spider-Sense Live Telemetry
 
 <div align="center">
