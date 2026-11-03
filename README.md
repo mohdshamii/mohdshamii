@@ -16,9 +16,6 @@
      Spider-Sense nexus connecting personal identity, academic discipline,
      and specialization via pulsing web threads.
      ========================================================================= -->
-<img src="assets/scene2_identity.svg" alt="Act II: Character Dossier — Mohd Shami" width="100%">
-
-<img src="assets/web-divider.svg" alt="Spider-Web Transition" width="100%">
 
 <!-- =========================================================================
      ACT III: THE WEB NETWORK // TECHNOLOGICAL ARSENAL
@@ -26,18 +23,13 @@
      Python, SQL, R, Machine Learning, Deep Learning, Scikit-learn,
      XGBoost, Flask, Power BI, Tableau, Git, and GitHub.
      ========================================================================= -->
-<img src="assets/scene3_tech_web.svg" alt="Act III: The Web Network — Technological Arsenal" width="100%">
-
-<img src="assets/web-divider.svg" alt="Spider-Web Transition" width="100%">
-
 
 <!-- =========================================================================
      ACT IV: SPIDER-MAN'S MISSIONS // TACTICAL REPOSITORIES
      Spider-Man patrols the mission grid revealing AgentOps, HydroRaksh,
      BharatLens, Atlas, and Driver Drowsiness Detection.
      ========================================================================= -->
-<img src="assets/scene4_missions.svg" alt="Act IV: Spider-Man's Missions — Tactical Repositories" width="100%">
-=======
+
 ##  The Origin Story
 
 > *"The only true wisdom is in knowing you know nothing — but with great compute comes great responsibility."*
@@ -56,8 +48,8 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
      Spider-Man shoots dual webs connecting to Portfolio, LinkedIn,
      GitHub, LeetCode, Linktree, and Direct Email.
      ========================================================================= -->
-<img src="assets/scene5_connect.svg" alt="Act V: Connect With Me — Multiverse Comms Radar" width="100%">
-=======
+
+
 ##  Spider-Sense & Core Domains
 
 <table width="100%">
