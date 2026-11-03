@@ -47,17 +47,6 @@ Just like navigating the sprawling web of the multiverse, I specialize in taming
 Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing medical risks with multimodal vision and language (**Revive**), diagnosing agricultural pathology for smallholder farmers (**FarmAIQ**), or decoding econometric telemetry across 643 Indian districts (**BharatLens**), I engineer systems built to survive the unpredictable forces of the real world.
 
 
-<p align="center">
-  <a href="https://github.com/mohdshamii/agentops"><code>[ ⚡ MISSION 01: AGENTOPS ]</code></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/mohdshamii/HydroRaksh"><code>[ 🌊 MISSION 02: HYDRORAKSH ]</code></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/mohdshamii/BharatLens"><code>[ 📊 MISSION 03: BHARATLENS ]</code></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/mohdshamii/Atlas"><code>[ 🗺️ MISSION 04: ATLAS ]</code></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/mohdshamii/Driver-drowsiness-and-distraction-detection"><code>[ 👁️ MISSION 05: DRIVER ATTENTION CV ]</code></a>
-</p>
 
 <img src="assets/web-divider.svg" alt="Spider-Web Transition" width="100%">
 
@@ -130,17 +119,17 @@ Whether it's orchestrating enterprise agent swarms (**AgentOps**), diagnosing me
 ##  The Stark Tech Web Arsenal
 
 <p align="center">
-  <a href="https://mohdshamii.github.io"><code>[ 🌐 PORTFOLIO ]</code></a>
+  <a href="https://mohdshamii.github.io"><code>[  PORTFOLIO ]</code></a>
   &nbsp;•&nbsp;
-  <a href="https://linkedin.com/u/mohdshamii"><code>[ 💼 LINKEDIN ]</code></a>
+  <a href="https://linkedin.com/u/mohdshamii"><code>[  LINKEDIN ]</code></a>
   &nbsp;•&nbsp;
-  <a href="https://github.com/mohdshamii"><code>[ 🐙 GITHUB ]</code></a>
+  <a href="https://github.com/mohdshamii"><code>[  GITHUB ]</code></a>
   &nbsp;•&nbsp;
-  <a href="https://leetcode.com/u/mohdshamii"><code>[ 💻 LEETCODE ]</code></a>
+  <a href="https://leetcode.com/u/mohdshamii"><code>[  LEETCODE ]</code></a>
   &nbsp;•&nbsp;
-  <a href="https://linktr.ee/mdshami"><code>[ 🌲 LINKTREE ]</code></a>
+  <a href="https://linktr.ee/mdshami"><code>[  LINKTREE ]</code></a>
   &nbsp;•&nbsp;
-  <a href="mailto:codexshami@gmail.com"><code>[ 📬 DIRECT EMAIL ]</code></a>
+  <a href="mailto:codexshami@gmail.com"><code>[  DIRECT EMAIL ]</code></a>
 </p>
 
 <img src="assets/web-divider.svg" alt="Spider-Web Transition" width="100%">
