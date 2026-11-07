@@ -113,6 +113,7 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
 
 ---
 
+
 <div align="center">
 
 ## Get in Touch
@@ -122,3 +123,7 @@ Discussing applied ML, agentic systems, or production AI? I would like to hear f
 [codexshami@gmail.com](mailto:codexshami@gmail.com) &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/u/mohdshamii) &nbsp;|&nbsp; [Portfolio](https://mohdshamii.github.io)
 
 </div>
+
+<p align="center">
+  <img src="web_divider.svg" alt="Web Divider" width="100%">
+</p>
