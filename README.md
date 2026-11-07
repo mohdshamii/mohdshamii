@@ -18,7 +18,7 @@ Building machine learning systems that are accurate, explainable, and ready for 
 
 </div>
 
----
+<img src="assets/web-divider.svg" alt="Web divider" width="100%">
 
 <div align="center">
   
@@ -40,7 +40,7 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
 | **Open to** | Applied ML and AI engineering roles, collaborations |
 </div>
 
----
+<img src="assets/web-divider.svg" alt="Web divider" width="100%">
 
 
 <div align="center">
@@ -56,7 +56,7 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
 | **Applied ML and Econometrics** | Classification, survival analysis, panel data modeling, forecasting, anomaly detection, explainability with SHAP and LIME |
 | **Production Engineering** | FastAPI and Flask services, asynchronous REST APIs, Docker, reproducible pipelines, MLflow and Weights & Biases tracking |
 
----
+<img src="assets/web-divider.svg" alt="Web divider" width="100%">
 
 <div align="center">
   
@@ -81,8 +81,7 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
 ![Tableau](https://img.shields.io/badge/Tableau-334155?style=flat-square&logo=tableau&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-334155?style=flat-square&logo=git&logoColor=white)
 
----
-
+---<img src="assets/web-divider.svg" alt="Web divider" width="100%">
 <div align="center">
   
 ## Engineering Principles
@@ -94,7 +93,7 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
 3. **No black boxes.** Pair complex models with SHAP or LIME so stakeholders can see why a prediction was made.
 4. **Keep it lean.** Tight inference budgets, vectorized computation, and maintainable architecture over fragile complexity.
 
----
+<img src="assets/web-divider.svg" alt="Web divider" width="100%">
 
 <div align="center"> 
   
@@ -111,7 +110,7 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
   </a>
 </div>
 
----
+<img src="assets/web-divider.svg" alt="Web divider" width="100%">
 
 
 <div align="center">
@@ -124,6 +123,4 @@ Discussing applied ML, agentic systems, or production AI? I would like to hear f
 
 </div>
 
-<p align="center">
-  <img src="web_divider.svg" alt="Web Divider" width="100%">
-</p>
+<img src="web.svg" alt="Web divider" width="100%">
