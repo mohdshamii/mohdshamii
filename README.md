@@ -20,24 +20,34 @@ Building machine learning systems that are accurate, explainable, and ready for 
 
 ---
 
+<div align="center">
+  
 ## About
+
+</div>
 
 I turn algorithms into dependable products. My work spans the full machine learning lifecycle: data preprocessing, model design, leakage-free evaluation, low-latency API engineering, and containerized deployment.
 
 The problems I take on are real-world ones: coordinating LLM agents for enterprise workflows, assessing clinical risk from multimodal data, diagnosing crop disease for smallholder farmers, and modeling economic signals across 643 Indian districts.
 
+<div align="center">
+  
 | | |
 | :--- | :--- |
 | **Focus** | Agentic AI, computer vision, applied ML, MLOps |
 | **Approach** | Evaluate rigorously, explain predictions, ship as services |
 | **Practice** | 850+ data structure and algorithm problems solved |
 | **Open to** | Applied ML and AI engineering roles, collaborations |
+</div>
 
 ---
 
 
-
+<div align="center">
+  
 ## Capabilities
+
+</div>
 
 | Area | What I work on |
 | :--- | :--- |
@@ -48,7 +58,11 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
 
 ---
 
+<div align="center">
+  
 ## Tech Stack
+
+</div>
 
 ![Python](https://img.shields.io/badge/Python-334155?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-334155?style=flat-square&logo=postgresql&logoColor=white)
@@ -69,7 +83,11 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
 
 ---
 
+<div align="center">
+  
 ## Engineering Principles
+
+</div>
 
 1. **Evaluate honestly.** No test leakage. Choose metrics that match the problem (ROC-AUC, Precision@K, F1), not vanity accuracy.
 2. **Build for production, not the notebook.** Clean REST APIs, Pydantic schema validation, Docker, and drift monitoring.
@@ -78,7 +96,11 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
 
 ---
 
+<div align="center"> 
+  
 ## GitHub Activity
+
+</div>
 
 <div align="center">
   <a href="https://github.com/mohdshamii">
