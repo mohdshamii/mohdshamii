@@ -185,7 +185,7 @@ Whether you want to discuss **Applied ML, Agentic Architectures, Production Syst
 <div align="center">
   <p>
     <a href="mailto:codexshami@gmail.com"><img src="https://img.shields.io/badge/DIRECT_EMAIL-codexshami@gmail.com-E22429?style=for-the-badge&logo=gmail&logoColor=white" height="36" alt="Email"/></a>
-    <a href="https://linkedin.com/in/mohdshamii"><img src="https://img.shields.io/badge/LINKEDIN-mohdshamii-2B6CFF?style=for-the-badge&logo=linkedin&logoColor=white" height="36" alt="LinkedIn"/></a>
+    <a href="https://linkedin.com/u/mohdshamii"><img src="https://img.shields.io/badge/LINKEDIN-mohdshamii-2B6CFF?style=for-the-badge&logo=linkedin&logoColor=white" height="36" alt="LinkedIn"/></a>
     <a href="https://mohdshamii.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-mohdshamii.github.io-0B0F24?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" alt="Portfolio"/></a>
   </p>
   <p>
