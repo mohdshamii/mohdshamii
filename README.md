@@ -99,21 +99,26 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
   
 ## GitHub Activity
 
-</div>
+
 
 <div align="center">
   <a href="https://github.com/mohdshamii">
-    <img src="https://github-stats-extended.vercel.app/api?username=mohdshamii&show_icons=true&hide_border=true&include_all_commits=true" width="49%" alt="GitHub Stats"/>
+    <img src="https://github-stats-extended.vercel.app/api?username=mohdshamii&show_icons=true&hide_border=true&include_all_commits=true&bg_color=FFFFFF&title_color=E62429&text_color=222222&icon_color=1565C0" width="49%" alt="Spider-Man GitHub Stats"/>
   </a>
   <a href="https://github.com/mohdshamii">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=mohdshamii&layout=compact&hide_border=true&langs_count=6" width="49%" alt="Top Languages"/>
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=mohdshamii&layout=compact&hide_border=true&langs_count=6&bg_color=FFFFFF&title_color=E62429&text_color=222222" width="49%" alt="Spider-Man Top Languages"/>
+  </a>
+</div>
+
+
+<div align="center">
+  <a href="https://github.com/mohdshamii">
+    <img src="https://streak-stats.demolab.com/?user=mohdshamii&background=FFFFFF&ring=E62429&fire=E62429&currStreakLabel=1565C0&sideLabels=222222&currStreakNum=222222&sideNums=222222&dates=555555&hide_border=true" width="70%" alt="Spider-Man Contribution Streak"/>
   </a>
 </div>
 
 <img src="assets/web-divider.svg" alt="Web divider" width="100%">
 
-
-<div align="center">
 
 ## Get in Touch
 
