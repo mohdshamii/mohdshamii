@@ -117,6 +117,12 @@ The problems I take on are real-world ones: coordinating LLM agents for enterpri
   </a>
 </div>
 
+<div align="center">
+
+[![mohdshamii's GitHub badges](https://gitshine.com/badges/mohdshamii)](https://gitshine.com/stats/mohdshamii#badges)
+
+</div>
+
 <img src="assets/web-divider.svg" alt="Web divider" width="100%">
 
 
