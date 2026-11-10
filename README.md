@@ -1,8 +1,13 @@
 <div align="center">
 
-<img src="header-banner.svg" alt="Mohd Shami — Applied ML & AI Engineer" width="100%">
+<h1>
+  <img src="https://img.shields.io/badge/%20-1a1a1a?style=flat-square" height="18" />
+  &nbsp;Mohd Shami&nbsp;
+  <img src="https://img.shields.io/badge/%20-E22429?style=flat-square" height="18" />
+</h1>
 
-<h3><em>Machine learning that ships. Predictions you can explain.</em></h3>
+<h3><em>Applied ML &amp; AI Engineer</em></h3>
+
 
 <a href="https://mohdshamii.github.io"><img src="https://img.shields.io/badge/Portfolio-E22429?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
 <a href="https://linkedin.com/u/mohdshamii"><img src="https://img.shields.io/badge/LinkedIn-1565C0?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
