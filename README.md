@@ -1,9 +1,3 @@
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/🕷️%20◞%20˚-6,320-e23636?style=flat&labelColor=1c4fa0" alt="badge" />
-</p>
-
 <div align="center">
 
 <h1>
@@ -39,17 +33,6 @@
 
 <div align="center">
   
-## What I build
-
-</div>
-
-I take machine learning from *notebook* to *service* — owning the whole lifecycle: preprocessing, model design, leakage-free evaluation, low-latency APIs, and containerized deployment.
-
-The problems are real ones: **orchestrating LLM agents** for enterprise workflows, **assessing clinical risk** from multimodal data, **diagnosing crop disease** for smallholder farmers, and **modeling economic signals** across 643 Indian districts.
-
-> *Evaluate rigorously. Explain every prediction. Ship as a service.*
-
-<br>
 
 
 <div align="center">
@@ -93,24 +76,6 @@ Applied ML / AI engineering roles & collaborations
 
 <img src="assets/web-divider.svg" alt="" width="100%">
 
-<div align="center">
-
-## How I think
-
-</div>
-
-<div align="center">
-
-| &nbsp; | &nbsp; |
-|:---:|:---|
-| **01** | **Evaluate honestly.** No test leakage. Metrics that match the problem — ROC-AUC, Precision@K, F1 — never vanity accuracy. |
-| **02** | **Build for production, not the notebook.** Clean REST APIs, Pydantic validation, Docker, drift monitoring. |
-| **03** | **No black boxes.** Pair complex models with SHAP or LIME so stakeholders can see *why*. |
-| **04** | **Keep it lean.** Tight inference budgets, vectorized compute, maintainable architecture over fragile cleverness. |
-
-</div>
-
-<img src="assets/web-divider.svg" alt="" width="100%">
 
 
 <div align="center">
@@ -155,13 +120,11 @@ Applied ML / AI engineering roles & collaborations
 
 <div align="center">
   
-| **Area** | **What I work on** |
-| :--- | :--- |
-| **Agentic AI & LLMs** | Multi-agent orchestration, tool routing, PEFT (LoRA, QLoRA), high-throughput inference, production RAG with vLLM, Qdrant, FAISS |
-| **Deep Learning & Vision** | CNN & ViT models, image pathology & segmentation, real-time landmark detection, multimodal diagnostics |
-| **Applied ML & Econometrics** | Classification, survival analysis, panel data modeling, forecasting, anomaly detection, SHAP / LIME explainability |
-| **Production Engineering** | FastAPI & Flask services, async REST, Docker, reproducible pipelines, MLflow & W&B tracking |
-
+| **Agentic AI & LLMs**                                     | **Deep Learning & Vision**                   |
+| --------------------------------------------------------- | -------------------------------------------- |
+| Multi-agent systems, RAG, LoRA/QLoRA, vLLM, Qdrant        | CNNs, ViTs, segmentation, landmark detection |
+| **Applied ML & Econometrics**                             | **Production Engineering**                   |
+| Classification, forecasting, survival analysis, SHAP/LIME | FastAPI, Flask, Docker, MLflow, W&B          |
 </div>
 
 <img src="assets/web-divider.svg" alt="" width="100%">
@@ -185,7 +148,7 @@ Applied ML / AI engineering roles & collaborations
 
 <br><br>
 
-[![mohdshamii's GitHub badges](https://gitshine.com/badges/mohdshamii)](https://gitshine.com/badges/mohdshamii)](https://gitshine.com/stats/mohdshamii#badges)
+[![mohdshamii's GitHub badges](https://gitshine.com/badges/mohdshamii)](https://gitshine.com/badges/mohdshamii)]
 
 </div>
 
@@ -207,3 +170,6 @@ Building something in applied ML, agentic systems, or production AI? I'd like to
 <sub><em>Evaluate honestly. Explain everything. Ship it.</em></sub>
 
 </div>
+<p align="center">
+  <img src="https://img.shields.io/badge/🕷️%20◞%20˚-6,320-e23636?style=flat&labelColor=1c4fa0" alt="badge" />
+</p>
