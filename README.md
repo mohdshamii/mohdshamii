@@ -1,10 +1,13 @@
 <div align="center">
 
-<h1>
-  <img src="https://img.shields.io/badge/%20-1a1a1a?style=flat-square" height="18" />
+
+<h1 align="center" style="border-bottom: none;">
+  <img src="https://img.shields.io/badge/%20-1a1a1a?style=flat-square" height="28" />
   &nbsp;Mohd Shami&nbsp;
-  <img src="https://img.shields.io/badge/%20-E22429?style=flat-square" height="18" />
+  <img src="https://img.shields.io/badge/%20-E22429?style=flat-square" height="28" />
 </h1>
+
+
 
 <h3><em>Applied ML &amp; AI Engineer</em></h3>
 
