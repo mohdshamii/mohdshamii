@@ -173,3 +173,7 @@ Building something in applied ML, agentic systems, or production AI? I'd like to
 <p align="center">
   <img src="https://img.shields.io/badge/🕷️%20◞%20˚-6,320-e23636?style=flat&labelColor=1c4fa0" alt="badge" />
 </p>
+
+<p align="center">
+  <img src="web.svg" alt="Spider Web Divider" width="100%" />
+</p>
