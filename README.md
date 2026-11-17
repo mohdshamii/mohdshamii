@@ -151,7 +151,9 @@ Applied ML / AI engineering roles & collaborations
 
 <br><br>
 
-[![mohdshamii's GitHub badges](https://gitshine.com/badges/mohdshamii)](https://gitshine.com/badges/mohdshamii)
+[![mohdshamii's GitHub badges](https://gitshine.com/badges/mohdshamii)]
+
+[![Mohd Shamii's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mohdshamii&bg_color=ffffff&color=1f2937&title_color=dc2626&line=dc2626&point=1d4ed8&area=true&area_color=93c5fd&hide_border=true&custom_title=)](https://github.com/mohdshamii)
 
 </div>
 
